@@ -110,4 +110,113 @@
     <h1>🔹 삼성SDS</h1>
 
     <div class="tabs">
-        <button class="active" onclick
+        <button class="active" onclick="openTab('overview', this)">개요</button>
+        <button onclick="openTab('jobOpening', this)">채용공고</button>
+        <button onclick="openTab('jobDescription', this)">직무기술서</button>
+        <button onclick="openTab('applicantSpecs', this)">합격자 스펙</button>
+        <button onclick="openTab('companyAnalysis', this)">기업분석</button>
+        <button onclick="openTab('careerMap', this)">로드맵</button>
+    </div>
+
+    <!-- 개요 -->
+    <div id="overview" class="tab-content active">
+        <h2>📌 개요</h2>
+        <p>클라우드, AI, 데이터 분석 기반의 디지털 전환 서비스를 제공하는 기업</p>
+    </div>
+
+    <!-- 채용공고 -->
+    <div id="jobOpening" class="tab-content">
+        <h2>📌 채용 공고</h2>
+        <a href="https://linkareer.com/activity/228860" target="_blank">
+            👉 삼성SDS 채용공고 보러가기
+        </a>
+    </div>
+
+    <!-- 직무 기술서 -->
+    <div id="jobDescription" class="tab-content">
+        <h2>📌 직무 기술서</h2>
+        <img src="SDS%20직무기술서.png" alt="직무 기술서">
+    </div>
+
+    <!-- 합격자 스펙 -->
+    <div id="applicantSpecs" class="tab-content">
+        <h2>📌 합격자 스펙</h2>
+        <ul>
+            <li>토익 800</li>
+            <li>식스시그마 자격증 3개</li>
+            <li>공모전/대외활동 2개</li>
+        </ul>
+    </div>
+
+    <!-- 기업 분석 -->
+    <div id="companyAnalysis" class="tab-content">
+        <h2>📌 기업 분석</h2>
+        <p>IT서비스 산업은 클라우드, AI, 데이터 분석 등 첨단 기술을 중심으로 빠르게 성장하고 있습니다.</p>
+        <p>기업들은 비용 효율성과 운영 효율성, 디지털 전환의 필요성에 따라 클라우드 및 AI 도입을 가속화.</p>
+        <p>글로벌 경쟁 심화와 함께 보안성, 맞춤형 솔루션, 파트너십 확대가 주요 트렌드로 부상.</p>
+        <hr>
+        <p><strong>✔️ 삼성SDS의 차별점</strong><br>
+        클라우드·AI 통합 플랫폼을 통해 맞춤형 서비스를 제공</p>
+        <hr>
+        <p><strong>✔️ 기업의 주요 관심사</strong><br>
+        클라우드/AI 혁신, 하이퍼오토메이션, 보안 강화</p>
+        <hr>
+        <p><strong>✔️ 진행 중인 프로젝트</strong><br>
+        브리티 코파일럿 확산, 브리티 오토메이션 도입 등</p>
+        <hr>
+        <p><strong>✔️ 장기 전략</strong><br>
+        클라우드·AI 선도기업 도약, 글로벌 파트너십 확대</p>
+        <hr>
+        <p><strong>✔️ 동종업계</strong><br>
+        LG CNS, SK, AX, 더존비즈온</p>
+    </div>
+
+    <!-- AI 커리어 로드맵 -->
+    <div id="careerMap" class="tab-content">
+        <h2>📌 커리어 로드맵</h2>
+        <form id="career-form">
+            <label for="experience">경험 입력:</label><br>
+            <input type="text" id="experience" placeholder="ex) 인턴 경험"><br><br>
+            <label for="skills">기술 입력:</label><br>
+            <input type="text" id="skills" placeholder="ex) Python, SQL"><br><br>
+            <button type="submit">로드맵 생성</button>
+        </form>
+        <div id="career-map"></div>
+    </div>
+
+    <!-- 뒤로 가기 버튼 -->
+    <button class="back-button" onclick="window.history.back()">뒤로 가기</button>
+
+    <!-- 첫 페이지로 가기 버튼 -->
+    <button class="go-home-button" onclick="window.location.href='index.html'">첫 페이지로 가기</button>
+</div>
+
+<script>
+function openTab(tabId, btn) {
+    // content
+    document.querySelectorAll('.tab-content').forEach(c => {
+        c.classList.remove('active');
+    });
+    document.getElementById(tabId).classList.add('active');
+
+    // button active
+    document.querySelectorAll('.tabs button').forEach(b => {
+        b.classList.remove('active');
+    });
+    btn.classList.add('active');
+}
+
+document.getElementById('career-form').addEventListener('submit', function(e){
+    e.preventDefault();
+    const exp = document.getElementById('experience').value;
+    const sk  = document.getElementById('skills').value;
+    document.getElementById('career-map').innerHTML = ` 
+        <p>✨ 경험: ${exp}</p>
+        <p>🔥 기술: ${sk}</p>
+        <p>📈 추천 경로: 주니어 → 미들 → 시니어 → 팀 리더</p>
+    `;
+});
+</script>
+
+</body>
+</html>
