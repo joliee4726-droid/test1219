@@ -1,47 +1,65 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>취업 성공 가이드</title>
-<style>
-    body {
-        font-family: 'Inter', sans-serif;
-        margin: 0; padding: 0;
-        background: #f5f5f5;
-    }
-    .container {
-        max-width: 600px;
-        margin: 60px auto;
-        padding: 0 20px;
-    }
-    h1 {
-        text-align: center;
-        color: #333;
-        margin-bottom: 40px;
-    }
-    .job-list li {
-        background: white;
-        margin: 10px 0;
-        padding: 15px 20px;
-        border-radius: 8px;
-        box-shadow: 0 1px 4px rgba(0,0,0,0.1);
-    }
-    .job-list a {
-        text-decoration: none;
-        color: #007bff;
-        font-size: 18px;
-        font-weight: 500;
-    }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>취업 성공 가이드</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 30px 50px;
+            text-align: center;
+            width: 100%;
+            max-width: 500px;
+        }
+        h1 {
+            font-size: 36px;
+            color: #343a40;
+            margin-bottom: 40px;
+        }
+        .job-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .job-list a {
+            text-decoration: none;
+            color: #007bff;
+            font-size: 18px;
+            font-weight: 500;
+            background-color: #f1f1f1;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+        .job-list a:hover {
+            background-color: #007bff;
+            color: white;
+        }
+    </style>
 </head>
 <body>
+
 <div class="container">
     <h1>🔍 직무 목록</h1>
-    <ul class="job-list">
-        <li><a href="기업목록.html?job=IT데이터">IT 데이터</a></li>
-        <li><a href="기업목록.html?job=경영지원">경영지원</a></li>
-    </ul>
+    <div class="job-list">
+        <a href="기업목록.html?job=IT데이터">IT 데이터</a>
+        <a href="기업목록.html?job=경영지원">경영지원</a>
+    </div>
 </div>
+
 </body>
 </html>
