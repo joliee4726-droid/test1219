@@ -52,8 +52,7 @@
             font-size: 18px;
             font-weight: bold;
         }
-        .home-button {
-            margin-top: 30px;
+        .home-button, .back-button {
             background-color: #007bff;
             color: white;
             padding: 10px 20px;
@@ -62,8 +61,9 @@
             cursor: pointer;
             font-size: 16px;
             transition: background-color 0.3s ease;
+            margin-top: 20px;
         }
-        .home-button:hover {
+        .home-button:hover, .back-button:hover {
             background-color: #0056b3;
         }
     </style>
@@ -85,8 +85,11 @@
         </ul>
     </div>
 
-    <!-- 홈으로 가기 버튼 -->
-    <button class="home-button" onclick="window.location.href='index.html'">홈으로 가기</button>
+    <!-- 뒤로 가기 버튼 -->
+    <button class="back-button" onclick="window.history.back()">뒤로 가기</button>
+    
+    <!-- 첫 페이지로 가기 버튼 -->
+    <button class="home-button" onclick="window.location.href='index.html'">첫 페이지로 가기</button>
 </div>
 
 <script>
