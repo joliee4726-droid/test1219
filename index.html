@@ -49,6 +49,20 @@
             background-color: #007bff;
             color: white;
         }
+        .back-button {
+            margin-top: 30px;
+            background-color: #6c757d;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        .back-button:hover {
+            background-color: #5a6268;
+        }
     </style>
 </head>
 <body>
@@ -59,6 +73,9 @@
         <a href="기업목록.html?job=IT데이터">IT 데이터</a>
         <a href="기업목록.html?job=경영지원">경영지원</a>
     </div>
+
+    <!-- 뒤로 가기 버튼 -->
+    <button class="back-button" onclick="window.history.back()">뒤로 가기</button>
 </div>
 
 </body>
