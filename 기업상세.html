@@ -1,187 +1,101 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>삼성SDS</title>
-<style>
-    body {
-        font-family: 'Inter', sans-serif;
-        background: #fafafa;
-        margin: 0; padding: 0;
-    }
-    .container {
-        max-width: 800px;
-        margin: 50px auto;
-        padding: 0 20px;
-    }
-    h1 {
-        text-align: center;
-        color: #333;
-        margin-bottom: 20px;
-    }
-
-    /* 탭 버튼 */
-    .tabs {
-        display: flex;
-        justify-content: space-between;
-        border-bottom: 2px solid #ddd;
-        margin-bottom: 20px;
-    }
-    .tabs button {
-        flex: 1;
-        background: #fff;
-        border: none;
-        padding: 12px 0;
-        cursor: pointer;
-        font-size: 16px;
-        font-weight: 500;
-        color: #555;
-        transition: 0.25s;
-    }
-    .tabs button:hover {
-        background: #efefef;
-    }
-    .tabs button.active {
-        border-bottom: 3px solid #007bff;
-        color: #007bff;
-        font-weight: 600;
-    }
-
-    /* 탭 내용 */
-    .tab-content {
-        display: none;
-        animation: fadeIn 0.3s ease-in-out;
-    }
-    .tab-content.active {
-        display: block;
-    }
-
-    @keyframes fadeIn {
-        from {opacity: 0;}
-        to {opacity: 1;}
-    }
-
-    /* 공통 스타일 */
-    a {
-        color: #007bff; text-decoration: none;
-    }
-    img {
-        max-width: 100%;
-        border-radius: 8px;
-        border: 1px solid #ddd;
-    }
-    ul {
-        padding-left: 15px;
-    }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기업 상세</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 30px 50px;
+            text-align: center;
+            width: 100%;
+            max-width: 700px;
+        }
+        h1 {
+            font-size: 36px;
+            color: #343a40;
+            margin-bottom: 20px;
+        }
+        .company-info {
+            font-size: 18px;
+            color: #343a40;
+            margin-bottom: 30px;
+            text-align: left;
+        }
+        .company-info h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        .back-button {
+            margin-top: 20px;
+            background-color: #6c757d;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        .back-button:hover {
+            background-color: #5a6268;
+        }
+        .company-details ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .company-details li {
+            background: #f1f1f1;
+            margin: 8px 0;
+            padding: 12px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+    </style>
 </head>
 <body>
 
 <div class="container">
-    <h1>🔹 삼성SDS</h1>
-
-    <div class="tabs">
-        <button class="active" onclick="openTab('overview', this)">개요</button>
-        <button onclick="openTab('jobOpening', this)">채용공고</button>
-        <button onclick="openTab('jobDescription', this)">직무기술서</button>
-        <button onclick="openTab('applicantSpecs', this)">합격자 스펙</button>
-        <button onclick="openTab('companyAnalysis', this)">기업분석</button>
-        <button onclick="openTab('careerMap', this)">로드맵</button>
+    <h1>기업 상세 정보</h1>
+    <div class="company-info">
+        <h2>삼성SDS</h2>
+        <p>클라우드, AI, 데이터 분석 기반의 디지털 전환(Digital Transformation) 서비스를 제공하는 기업</p>
     </div>
 
-    <!-- 개요 -->
-    <div id="overview" class="tab-content active">
-        <h2>📌 개요</h2>
-        <p>클라우드, AI, 데이터 분석 기반의 디지털 전환 서비스를 제공하는 기업</p>
-    </div>
-
-    <!-- 채용공고 -->
-    <div id="jobOpening" class="tab-content">
-        <h2>📌 채용 공고</h2>
-        <a href="https://linkareer.com/activity/228860" target="_blank">
-            👉 삼성SDS 채용공고 보러가기
-        </a>
-    </div>
-
-    <!-- 직무 기술서 -->
-    <div id="jobDescription" class="tab-content">
-        <h2>📌 직무 기술서</h2>
-        <img src="SDS%20직무기술서.png" alt="직무 기술서">
-    </div>
-
-    <!-- 합격자 스펙 -->
-    <div id="applicantSpecs" class="tab-content">
-        <h2>📌 합격자 스펙</h2>
+    <div class="company-details">
+        <h2>세부 정보</h2>
         <ul>
-            <li>토익 800</li>
-            <li>식스시그마 자격증 3개</li>
-            <li>공모전/대외활동 2개</li>
+            <li><strong>채용공고:</strong> <a href="https://linkareer.com/activity/228860" target="_blank">삼성SDS 채용 공고 보러가기</a></li>
+            <li><strong>직무 기술서:</strong> <img src="SDS%20직무기술서.png" alt="직무 기술서 이미지" style="max-width:100%; height:auto; border-radius:8px;"></li>
+            <li><strong>합격자 스펙:</strong> 토익 800, 식스시그마 자격증 3개, 공모전 대외활동 2개</li>
+            <li><strong>기업 분석:</strong> IT 서비스 산업은 클라우드, AI, 데이터 분석 등 첨단 기술을 중심으로 빠르게 성장하고 있습니다. 기업들은 비용 효율성과 운영 효율성, 디지털 전환의 필요성에 따라 클라우드 및 AI 도입을 가속화하고 있습니다.</li>
         </ul>
     </div>
 
-    <!-- 기업 분석 -->
-    <div id="companyAnalysis" class="tab-content">
-        <h2>📌 기업 분석</h2>
-        <p>IT서비스 산업은 클라우드, AI, 데이터 분석 등 첨단 기술을 중심으로 빠르게 성장하고 있습니다.</p>
-        <p>기업들은 비용 효율성과 운영 효율성, 디지털 전환의 필요성에 따라 클라우드 및 AI 도입을 가속화.</p>
-        <p>글로벌 경쟁 심화와 함께 보안성, 맞춤형 솔루션, 파트너십 확대가 주요 트렌드로 부상.</p>
-        <hr>
-        <p><strong>✔️ 삼성SDS의 차별점</strong><br>
-        클라우드·AI 통합 플랫폼을 통해 맞춤형 서비스를 제공</p>
-        <hr>
-        <p><strong>✔️ 기업의 주요 관심사</strong><br>
-        클라우드/AI 혁신, 하이퍼오토메이션, 보안 강화</p>
-        <hr>
-        <p><strong>✔️ 진행 중인 프로젝트</strong><br>
-        브리티 코파일럿 확산, 브리티 오토메이션 도입 등</p>
-        <hr>
-        <p><strong>✔️ 장기 전략</strong><br>
-        클라우드·AI 선도기업 도약, 글로벌 파트너십 확대</p>
-        <hr>
-        <p><strong>✔️ 동종업계</strong><br>
-        LG CNS, SK, AX, 더존비즈온</p>
-    </div>
-
-    <!-- AI 커리어 로드맵 -->
-    <div id="careerMap" class="tab-content">
-        <h2>📌 커리어 로드맵</h2>
-        <form id="career-form">
-            <label for="experience">경험 입력:</label><br>
-            <input type="text" id="experience" placeholder="ex) 인턴 경험"><br><br>
-            <label for="skills">기술 입력:</label><br>
-            <input type="text" id="skills" placeholder="ex) Python, SQL"><br><br>
-            <button type="submit">로드맵 생성</button>
-        </form>
-        <div id="career-map"></div>
-    </div>
+    <!-- 뒤로 가기 버튼 -->
+    <button class="back-button" onclick="window.history.back()">뒤로 가기</button>
 </div>
 
 <script>
-function openTab(tabId, btn) {
-    // content
-    document.querySelectorAll('.tab-content').forEach(c => {
-        c.classList.remove('active');
-    });
-    document.getElementById(tabId).classList.add('active');
-
-    // button active
-    document.querySelectorAll('.tabs button').forEach(b => {
-        b.classList.remove('active');
-    });
-    btn.classList.add('active');
-}
-
-document.getElementById('career-form').addEventListener('submit', function(e){
-    e.preventDefault();
-    const exp = document.getElementById('experience').value;
-    const sk  = document.getElementById('skills').value;
-    document.getElementById('career-map').innerHTML = `
-        <p>✨ 경험: ${exp}</p>
-        <p>🔥 기술: ${sk}</p>
-        <p>📈 추천 경로: 주니어 → 미들 → 시니어 → 팀 리더</p>
-    `;
-});
+    // URL 파라미터로 기업명을 받아와서 해당 기업 정보를 표시할 수 있게 처리합니다.
+    const urlParams = new URLSearchParams(window.location.search);
+    const company = urlParams.get('company');
+    if (company) {
+        document.querySelector('.company-info h2').innerText = company;
+    }
 </script>
 
 </body>
