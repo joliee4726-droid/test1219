@@ -29,20 +29,6 @@
             color: #343a40;
             margin-bottom: 40px;
         }
-        .filter-btns button {
-            background: #007bff;
-            color: white;
-            border: none;
-            padding: 10px 18px;
-            margin: 0 8px;
-            border-radius: 6px;
-            cursor: pointer;
-            font-size: 14px;
-            transition: background-color 0.3s;
-        }
-        .filter-btns button:hover {
-            background-color: #0056b3;
-        }
         .company-list {
             margin-top: 30px;
             display: none; /* 기본적으로 기업 목록 숨기기 */
@@ -71,32 +57,31 @@
 <body>
 
 <div class="container">
-    <h1>기업 리스트</h1>
-    <div class="filter-btns">
-        <button onclick="showCompany('IT데이터')">IT 데이터</button>
-        <button onclick="showCompany('경영지원')">경영지원</button>
+    <h1>해당 직무에 대한 기업 목록</h1>
+
+    <!-- 직무에 해당하는 기업 목록을 보여줍니다 -->
+    <div id="IT데이터" class="company-list">
+        <ul>
+            <li><a href="기업상세.html?company=SDS">삼성SDS</a></li>
+        </ul>
     </div>
 
-    <!-- IT 데이터 관련 기업 목록 -->
-    <ul id="IT데이터" class="company-list">
-        <li><a href="기업상세.html?company=SDS">삼성SDS</a></li>
-    </ul>
-
-    <!-- 경영지원 관련 기업 목록 -->
-    <ul id="경영지원" class="company-list">
-        <li><a href="기업상세.html?company=Samsung">삼성전자</a></li>
-    </ul>
+    <div id="경영지원" class="company-list">
+        <ul>
+            <li><a href="기업상세.html?company=Samsung">삼성전자</a></li>
+        </ul>
+    </div>
 </div>
 
 <script>
-function showCompany(job) {
-    // 모든 기업 목록 숨기기
-    document.getElementById('IT데이터').style.display = "none";
-    document.getElementById('경영지원').style.display = "none";
-    
-    // 클릭한 직무에 해당하는 기업 목록만 보이기
-    document.getElementById(job).style.display = "block";
-}
+    // URL 파라미터로 직무 확인
+    const urlParams = new URLSearchParams(window.location.search);
+    const job = urlParams.get('job');
+
+    // 해당 직무에 해당하는 기업 목록만 보이게 하기
+    if (job) {
+        document.getElementById(job).style.display = "block";
+    }
 </script>
 
 </body>
