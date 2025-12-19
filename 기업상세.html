@@ -29,18 +29,32 @@
             color: #343a40;
             margin-bottom: 20px;
         }
-        .company-info {
-            font-size: 18px;
-            color: #343a40;
+        .tabs {
+            display: flex;
+            justify-content: space-around;
             margin-bottom: 30px;
-            text-align: left;
         }
-        .company-info h2 {
-            font-size: 24px;
-            margin-bottom: 15px;
+        .tabs button {
+            padding: 12px 24px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+        .tabs button:hover {
+            background-color: #0056b3;
+        }
+        .tab-content {
+            display: none;
+        }
+        .tab-content.active {
+            display: block;
         }
         .back-button {
-            margin-top: 20px;
+            margin-top: 30px;
             background-color: #6c757d;
             color: white;
             padding: 10px 20px;
@@ -53,49 +67,61 @@
         .back-button:hover {
             background-color: #5a6268;
         }
-        .company-details ul {
-            list-style-type: none;
-            padding-left: 0;
-        }
-        .company-details li {
-            background: #f1f1f1;
-            margin: 8px 0;
-            padding: 12px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
     </style>
 </head>
 <body>
 
 <div class="container">
     <h1>기업 상세 정보</h1>
-    <div class="company-info">
-        <h2>삼성SDS</h2>
-        <p>클라우드, AI, 데이터 분석 기반의 디지털 전환(Digital Transformation) 서비스를 제공하는 기업</p>
+
+    <div class="tabs">
+        <button onclick="openTab('overview')">개요</button>
+        <button onclick="openTab('jobDescription')">직무 기술서</button>
+        <button onclick="openTab('applicantSpecs')">합격자 스펙</button>
+        <button onclick="openTab('companyAnalysis')">기업 분석</button>
     </div>
 
-    <div class="company-details">
-        <h2>세부 정보</h2>
+    <div id="overview" class="tab-content active">
+        <h2>삼성SDS</h2>
+        <p>클라우드, AI, 데이터 분석 기반의 디지털 전환 서비스를 제공하는 기업</p>
+    </div>
+
+    <div id="jobDescription" class="tab-content">
+        <h2>직무 기술서</h2>
+        <p>직무에 대한 설명과 요구사항...</p>
+    </div>
+
+    <div id="applicantSpecs" class="tab-content">
+        <h2>합격자 스펙</h2>
         <ul>
-            <li><strong>채용공고:</strong> <a href="https://linkareer.com/activity/228860" target="_blank">삼성SDS 채용 공고 보러가기</a></li>
-            <li><strong>직무 기술서:</strong> <img src="SDS%20직무기술서.png" alt="직무 기술서 이미지" style="max-width:100%; height:auto; border-radius:8px;"></li>
-            <li><strong>합격자 스펙:</strong> 토익 800, 식스시그마 자격증 3개, 공모전 대외활동 2개</li>
-            <li><strong>기업 분석:</strong> IT 서비스 산업은 클라우드, AI, 데이터 분석 등 첨단 기술을 중심으로 빠르게 성장하고 있습니다. 기업들은 비용 효율성과 운영 효율성, 디지털 전환의 필요성에 따라 클라우드 및 AI 도입을 가속화하고 있습니다.</li>
+            <li>토익 800</li>
+            <li>식스시그마 자격증 3개</li>
+            <li>공모전/대외활동 2개</li>
         </ul>
+    </div>
+
+    <div id="companyAnalysis" class="tab-content">
+        <h2>기업 분석</h2>
+        <p>IT 서비스 산업은 클라우드, AI, 데이터 분석 등 첨단 기술을 중심으로 빠르게 성장하고 있습니다...</p>
     </div>
 
     <!-- 뒤로 가기 버튼 -->
     <button class="back-button" onclick="window.history.back()">뒤로 가기</button>
+
+    <!-- 첫 페이지로 가기 버튼 -->
+    <button class="back-button" onclick="window.location.href='index.html'">첫 페이지로 가기</button>
 </div>
 
 <script>
-    // URL 파라미터로 기업명을 받아와서 해당 기업 정보를 표시할 수 있게 처리합니다.
-    const urlParams = new URLSearchParams(window.location.search);
-    const company = urlParams.get('company');
-    if (company) {
-        document.querySelector('.company-info h2').innerText = company;
-    }
+function openTab(tabId) {
+    // 모든 탭 숨기기
+    document.querySelectorAll('.tab-content').forEach(tab => {
+        tab.classList.remove('active');
+    });
+
+    // 클릭한 탭 보이기
+    document.getElementById(tabId).classList.add('active');
+}
 </script>
 
 </body>
