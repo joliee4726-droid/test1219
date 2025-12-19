@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>삼성SDS - 기업 분석</title>
+    <style>
+        /* 탭 버튼 스타일 */
+        .tab-button {
+            padding: 10px;
+            cursor: pointer;
+            margin: 5px;
+            background-color: #f1f1f1;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        .tab-button.active {
+            background-color: #007bff;
+            color: white;
+        }
+
+        /* 탭 내용 스타일 */
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .tab-container {
+            margin-top: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>삼성SDS - 기업 분석</h1>
+
+    <!-- 탭 버튼들 -->
+    <div class="tab-container">
+        <button class="tab-button active" onclick="showTab('overview')">개요</button>
+        <button class="tab-button" onclick="showTab('jobOpening')">채용 공고</button>
+        <button class="tab-button" onclick="showTab('jobDescription')">직무 기술서</button>
+        <button class="tab-button" onclick="showTab('applicantSpecs')">합격자 스펙</button>
+        <button class="tab-button" onclick="showTab('companyAnalysis')">기업 분석</button>
+        <button class="tab-button" onclick="showTab('careerMap')">AI 커리어 로드맵</button>
+    </div>
+
+    <!-- 각 탭 내용들 -->
+    <div id="overview" class="tab-content active">
+        <h2>개요</h2>
+        <p>클라우드, AI, 데이터 분석 기반의 디지털 전환(Digital Transformation) 서비스를 제공하는 기업</p>
+    </div>
+
+    <div id="jobOpening" class="tab-content">
+        <h2>채용 공고</h2>
+        <a href="https://linkareer.com/activity/228860">삼성SDS 채용 공고</a>
+    </div>
+
+    <div id="jobDescription" class="tab-content">
+        <h2>직무 기술서</h2>
+        <img src="SDS%20직무기술서.png" alt="직무 기술서 이미지" style="width:100%; height:auto;">
+    </div>
+
+    <div id="applicantSpecs" class="tab-content">
+        <h2>합격자 스펙</h2>
+        <ul>
+            <li>토익 800</li>
+            <li>식스시그마 자격증 3개</li>
+            <li>공모전 대외활동 2개</li>
+        </ul>
+    </div>
+
+    <div id="companyAnalysis" class="tab-content">
+        <h2>기업 분석</h2>
+        <p>
+            IT서비스 산업은 클라우드, AI, 데이터 분석 등 첨단 기술을 중심으로 빠르게 성장하고 있습니다.<br>
+            기업들은 비용 효율성과 운영 효율성, 디지털 전환의 필요성에 따라 클라우드 및 AI 도입을 가속화.<br>
+            삼성SDS는 클라우드·AI 통합 플랫폼과 생성형 AI 솔루션을 결합해 기업 맞춤형 서비스를 제공합니다.
+        </p>
+    </div>
+
+    <div id="careerMap" class="tab-content">
+        <h2>AI 커리어 로드맵 생성</h2>
+        <form id="career-form">
+            <label for="experience">경험:</label>
+            <input type="text" id="experience" name="experience"><br>
+            <label for="skills">주요 기술:</label>
+            <input type="text" id="skills" name="skills"><br>
+            <button type="submit">로드맵 생성</button>
+        </form>
+
+        <h3>추천 커리어 로드맵</h3>
+        <div id="career-map"></div>
+
+        <script>
+            document.getElementById('career-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                const experience = document.getElementById('experience').value;
+                const skills = document.getElementById('skills').value;
+
+                const careerMap = `
+                    <p>경험: ${experience}</p>
+                    <p>주요 기술: ${skills}</p>
+                    <p>추천 경로: 데이터 분석 → 중급 개발자 → 팀 리더 → CTO</p>
+                `;
+                document.getElementById('career-map').innerHTML = careerMap;
+            });
+        </script>
+    </div>
+
+    <script>
+        // 탭을 클릭할 때마다 해당 탭의 내용만 표시하는 함수
+        function showTab(tabId) {
+            const tabs = document.querySelectorAll('.tab-content');
+            tabs.forEach(tab => tab.classList.remove('active')); // 모든 탭 숨기기
+            document.getElementById(tabId).classList.add('active'); // 클릭한 탭 내용만 보이기
+            const buttons = document.querySelectorAll('.tab-button');
+            buttons.forEach(button => button.classList.remove('active')); // 모든 버튼 비활성화
+            const activeButton = Array.from(buttons).find(button => button.textContent === tabId); // 클릭한 버튼 활성화
+            if (activeButton) activeButton.classList.add('active');
+        }
+    </script>
+</body>
+</html>
