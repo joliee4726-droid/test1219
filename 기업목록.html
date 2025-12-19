@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기업 목록</title>
+    <style>
+        .company-list {
+            display: none;
+        }
+        .company-list.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>기업 목록</h1>
+
+    <!-- 직무 선택 버튼 -->
+    <div id="tabs">
+        <button onclick="showCompanyList('IT데이터')">IT 데이터</button>
+        <button onclick="showCompanyList('경영지원')">경영지원</button>
+    </div>
+
+    <!-- 기업 목록 (IT 데이터) -->
+    <div id="IT데이터" class="company-list">
+        <h2>IT 데이터 관련 기업</h2>
+        <ul>
+            <li><a href="기업상세.html?company=SDS">삼성SDS</a></li>
+        </ul>
+    </div>
+
+    <!-- 기업 목록 (경영지원) -->
+    <div id="경영지원" class="company-list">
+        <h2>경영지원 관련 기업</h2>
+        <ul>
+            <li><a href="기업상세.html?company=Samsung">삼성전자</a></li>
+        </ul>
+    </div>
+
+    <script>
+        function showCompanyList(job) {
+            // 모든 기업 목록을 숨깁니다.
+            const companyLists = document.querySelectorAll('.company-list');
+            companyLists.forEach(list => list.classList.remove('active'));
+
+            // 클릭한 직무에 해당하는 기업 목록만 보이게 합니다.
+            const selectedJobList = document.getElementById(job);
+            if (selectedJobList) {
+                selectedJobList.classList.add('active');
+            }
+        }
+    </script>
+</body>
+</html>
