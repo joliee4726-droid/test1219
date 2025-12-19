@@ -31,7 +31,7 @@
         }
         .company-list {
             margin-top: 30px;
-            display: none; /* 기본적으로 기업 목록 숨기기 */
+            display: none;
         }
         .company-list li {
             background: white;
@@ -73,7 +73,6 @@
 <div class="container">
     <h1>해당 직무에 대한 기업 목록</h1>
 
-    <!-- 직무에 해당하는 기업 목록을 보여줍니다 -->
     <div id="IT데이터" class="company-list">
         <ul>
             <li><a href="기업상세.html?company=SDS">삼성SDS</a></li>
@@ -88,14 +87,15 @@
 
     <!-- 뒤로 가기 버튼 -->
     <button class="back-button" onclick="window.history.back()">뒤로 가기</button>
+
+    <!-- 첫 페이지로 가기 버튼 -->
+    <button class="back-button" onclick="window.location.href='index.html'">첫 페이지로 가기</button>
 </div>
 
 <script>
-    // URL 파라미터로 직무 확인
     const urlParams = new URLSearchParams(window.location.search);
     const job = urlParams.get('job');
 
-    // 해당 직무에 해당하는 기업 목록만 보이게 하기
     if (job) {
         document.getElementById(job).style.display = "block";
     }
