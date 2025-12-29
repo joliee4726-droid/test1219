@@ -1,0 +1,693 @@
+{
+  "meta": {
+    "generated_at": "2025-12-29T06:02:24.411365",
+    "version": "1.0"
+  },
+  "categories": [
+    {
+      "category_id": "C01",
+      "category_name": "IT·데이터·보안",
+      "sort": 1
+    },
+    {
+      "category_id": "C02",
+      "category_name": "경영지원·회계·재무",
+      "sort": 2
+    },
+    {
+      "category_id": "C03",
+      "category_name": "R/D 제조 엔지니어링",
+      "sort": 3
+    },
+    {
+      "category_id": "C04",
+      "category_name": "영업마케팅MD",
+      "sort": 4
+    },
+    {
+      "category_id": "C05",
+      "category_name": "교육, 공공, 의료복지",
+      "sort": 5
+    },
+    {
+      "category_id": "C06",
+      "category_name": "금융, 보험, 핀테크",
+      "sort": 6
+    },
+    {
+      "category_id": "C07",
+      "category_name": "유통·서비스·외식",
+      "sort": 7
+    },
+    {
+      "category_id": "C08",
+      "category_name": "인사조직",
+      "sort": 8
+    },
+    {
+      "category_id": "C09",
+      "category_name": "건축·건설·시설",
+      "sort": 9
+    },
+    {
+      "category_id": "C10",
+      "category_name": "광고·브랜딩·PR",
+      "sort": 10
+    }
+  ],
+  "jobs": [
+    {
+      "job_id": "J01",
+      "category_id": "C01",
+      "job_name": "DBA",
+      "one_liner": "뱅킹 시스템 내 DB 운영 및 관리",
+      "sort": 1
+    },
+    {
+      "job_id": "J02",
+      "category_id": "C02",
+      "job_name": "재경",
+      "one_liner": "회사의 돈 흐름을 관리하며 회계·세무·자금·예산·결산·공시를 통해 재무 건전성과 의사결정을 지원하는 역할.",
+      "sort": 2
+    },
+    {
+      "job_id": "J02_2",
+      "category_id": "C02",
+      "job_name": "경영지원(회계)",
+      "one_liner": "표·매입/매출·결산·재무제표·부가세/법인세 등 회계·세무 업무를 처리하고 내부통제와 공시 자료를 지원",
+      "sort": 3
+    },
+    {
+      "job_id": "J03",
+      "category_id": "C03",
+      "job_name": "validation 정제 ",
+      "one_liner": "오류·누락 잡아 데이터 신뢰도 확보",
+      "sort": 4
+    },
+    {
+      "job_id": "J04",
+      "category_id": "C04",
+      "job_name": "영업",
+      "one_liner": "고객 니즈 파악 → 제안·협상 → 매출 창출.",
+      "sort": 4
+    },
+    {
+      "job_id": "J05",
+      "category_id": "C04",
+      "job_name": "해외영업",
+      "one_liner": "글로벌 시장에서 철강, 에너지, 석유화학, 기계·부품 등 다양한 제품의 수출입 및 삼국간 무역 수행",
+      "sort": 4
+    },
+    {
+      "job_id": "J06",
+      "category_id": "C03",
+      "job_name": "반도체공정설계",
+      "one_liner": "메모리반도체제품의모든공정프로세스를설계",
+      "sort": 4
+    },
+    {
+      "job_id": "J07",
+      "category_id": "C05",
+      "job_name": "예금보험공사",
+      "one_liner": "",
+      "sort": 4
+    },
+    {
+      "job_id": "J08",
+      "category_id": "C04",
+      "job_name": "Supplier Integration & Retail Onboarding (카테고리매니지먼트)",
+      "one_liner": "대규모 셀렉션을 효율적으로 등록하기 위해 프로세스를 운영 및 관리하고 지속적인 개선 사항을 도출",
+      "sort": 4
+    },
+    {
+      "job_id": "J09",
+      "category_id": "C08",
+      "job_name": "인사",
+      "one_liner": "회사의 지속성장을 위해 임직원 역량을 관리하고,  변화를 주도하는 업무 ",
+      "sort": 4
+    },
+    {
+      "job_id": "J09_2",
+      "category_id": "C08",
+      "job_name": "인사",
+      "one_liner": "회사의 지속성장을 위해 임직원 역량을 관리하고,  변화를 주도하는 업무 ",
+      "sort": 4
+    },
+    {
+      "job_id": "J09_3",
+      "category_id": "C08",
+      "job_name": "인사(관리)",
+      "one_liner": "회사의 지속성장을 위해 임직원 역량을 관리하고,  변화를 주도하는 업무 ",
+      "sort": 4
+    },
+    {
+      "job_id": "J05_2",
+      "category_id": "C04",
+      "job_name": "해외영업",
+      "one_liner": "해외 고객 발굴·수출 협상으로 글로벌 매출 확대.",
+      "sort": 4
+    },
+    {
+      "job_id": "J10",
+      "category_id": "C06",
+      "job_name": "행원",
+      "one_liner": "고객 자산·대출·거래를 관리해 금융 솔루션 제공",
+      "sort": 4
+    },
+    {
+      "job_id": "J11",
+      "category_id": "C03",
+      "job_name": "CS 서비스",
+      "one_liner": "고객사 현장에서  노광장비 설치·점검·트러블슈팅으로 가동률/수율 유지",
+      "sort": 4
+    },
+    {
+      "job_id": "J12",
+      "category_id": "C03",
+      "job_name": " QC",
+      "one_liner": "원료·공정·완제품을 시험·검사해 품질 기준 준수 보장.",
+      "sort": 4
+    },
+    {
+      "job_id": "J13",
+      "category_id": "C03",
+      "job_name": "상하수도 엔지니어링",
+      "one_liner": "상하수도 시설의 설계·검토·감리로 안전한 물 공급·처리 품질 확보.",
+      "sort": 4
+    },
+    {
+      "job_id": "J14",
+      "category_id": "C01",
+      "job_name": "임베디스 MCU BSW",
+      "one_liner": "MCU 기반 차량 ECU의 BSW(기본소프트웨어) 개발·통합로 안정적 제어·통신·진단 구현.",
+      "sort": 4
+    },
+    {
+      "job_id": "J15",
+      "category_id": "C03",
+      "job_name": "PROCESS 엔지니어",
+      "one_liner": "",
+      "sort": 4
+    }
+  ],
+  "companies": [
+    {
+      "company_id": "CO01",
+      "company_name": "신한 DS",
+      "industry": "금융 IT",
+      "careers_url": "",
+      "sort": 1
+    },
+    {
+      "company_id": "CO02",
+      "company_name": "현대백화점",
+      "industry": "유통",
+      "careers_url": "",
+      "sort": 2
+    },
+    {
+      "company_id": "CO03",
+      "company_name": "삼성바이오로직스",
+      "industry": "바이오",
+      "careers_url": "",
+      "sort": 3
+    },
+    {
+      "company_id": "CO04",
+      "company_name": "CJ프레시웨이",
+      "industry": "식품",
+      "careers_url": "",
+      "sort": 4
+    },
+    {
+      "company_id": "CO05",
+      "company_name": "현대코퍼레이션 홀딩스",
+      "industry": "유통",
+      "careers_url": "",
+      "sort": 5
+    },
+    {
+      "company_id": "CO06",
+      "company_name": "삼성전자(DS)",
+      "industry": "반도체",
+      "careers_url": "",
+      "sort": 6
+    },
+    {
+      "company_id": "CO07",
+      "company_name": "공사직원",
+      "industry": "공공",
+      "careers_url": "",
+      "sort": 7
+    },
+    {
+      "company_id": "CO08",
+      "company_name": "쿠팡",
+      "industry": "유통",
+      "careers_url": "",
+      "sort": 8
+    },
+    {
+      "company_id": "CO09",
+      "company_name": "CJ제일제당",
+      "industry": "식품",
+      "careers_url": "",
+      "sort": 9
+    },
+    {
+      "company_id": "CO06_2",
+      "company_name": "삼성전자(DS)",
+      "industry": "반도체",
+      "careers_url": "",
+      "sort": 10
+    },
+    {
+      "company_id": "CO10",
+      "company_name": "현대자동차",
+      "industry": "자동차",
+      "careers_url": "",
+      "sort": 11
+    },
+    {
+      "company_id": "CO11",
+      "company_name": "IBK기업은행",
+      "industry": "금융 ",
+      "careers_url": "",
+      "sort": 12
+    },
+    {
+      "company_id": "CO12",
+      "company_name": "ASML",
+      "industry": "반도체",
+      "careers_url": "",
+      "sort": 13
+    },
+    {
+      "company_id": "CO13",
+      "company_name": "현대오토에버",
+      "industry": "IT",
+      "careers_url": "",
+      "sort": 14
+    },
+    {
+      "company_id": "CO14",
+      "company_name": "LG화학 생명과학사업본부",
+      "industry": "바이오",
+      "careers_url": "",
+      "sort": 15
+    },
+    {
+      "company_id": "CO15",
+      "company_name": "도화엔지니어링 ",
+      "industry": "건설",
+      "careers_url": "",
+      "sort": 16
+    },
+    {
+      "company_id": "CO16",
+      "company_name": "소노인터내셔널",
+      "industry": "레저",
+      "careers_url": "",
+      "sort": 17
+    },
+    {
+      "company_id": "CO17",
+      "company_name": "현대모비스",
+      "industry": "자동차",
+      "careers_url": "",
+      "sort": 18
+    },
+    {
+      "company_id": "CO18",
+      "company_name": "태광산업",
+      "industry": "석유화학산업",
+      "careers_url": "",
+      "sort": 19
+    }
+  ],
+  "jobCompanyMap": [
+    {
+      "job_id": "J01",
+      "company_id": "CO01",
+      "relevance": 3,
+      "reason_1line": ""
+    },
+    {
+      "job_id": "J02",
+      "company_id": "CO02",
+      "relevance": 3,
+      "reason_1line": ""
+    },
+    {
+      "job_id": "J03",
+      "company_id": "CO03",
+      "relevance": 3,
+      "reason_1line": ""
+    },
+    {
+      "job_id": "J04",
+      "company_id": "CO04",
+      "relevance": 3,
+      "reason_1line": ""
+    },
+    {
+      "job_id": "J05",
+      "company_id": "CO05",
+      "relevance": 3,
+      "reason_1line": ""
+    },
+    {
+      "job_id": "J05_2",
+      "company_id": "CO10",
+      "relevance": 3,
+      "reason_1line": ""
+    },
+    {
+      "job_id": "J06",
+      "company_id": "CO06",
+      "relevance": 3,
+      "reason_1line": ""
+    },
+    {
+      "job_id": "J07",
+      "company_id": "CO07",
+      "relevance": 3,
+      "reason_1line": ""
+    },
+    {
+      "job_id": "J08",
+      "company_id": "CO08",
+      "relevance": 3,
+      "reason_1line": ""
+    },
+    {
+      "job_id": "J09",
+      "company_id": "CO09",
+      "relevance": 3,
+      "reason_1line": ""
+    },
+    {
+      "job_id": "J9_2",
+      "company_id": "CO06_2",
+      "relevance": 3,
+      "reason_1line": ""
+    },
+    {
+      "job_id": "J9_3",
+      "company_id": "CO16",
+      "relevance": 3,
+      "reason_1line": ""
+    },
+    {
+      "job_id": "J10",
+      "company_id": "CO11",
+      "relevance": 3,
+      "reason_1line": ""
+    },
+    {
+      "job_id": "J11",
+      "company_id": "CO12",
+      "relevance": 3,
+      "reason_1line": ""
+    },
+    {
+      "job_id": "J12",
+      "company_id": "CO14",
+      "relevance": 3,
+      "reason_1line": ""
+    },
+    {
+      "job_id": "J13",
+      "company_id": "CO15",
+      "relevance": 3,
+      "reason_1line": ""
+    },
+    {
+      "job_id": "J14",
+      "company_id": "CO17",
+      "relevance": 3,
+      "reason_1line": ""
+    },
+    {
+      "job_id": "J2_2",
+      "company_id": "CO18",
+      "relevance": 3,
+      "reason_1line": ""
+    },
+    {
+      "job_id": "J15",
+      "company_id": "CO13",
+      "relevance": 3,
+      "reason_1line": ""
+    }
+  ],
+  "pages": [
+    {
+      "job_id": "J01",
+      "company_id": "CO01",
+      "slug": "CO01-J01",
+      "overview_md": "금융 IT 서비스, 시스템 통합 및 IT 아웃소싱을 제공하는 기업",
+      "recruit_links": "https://www.bzpp.co.kr/biz/businessDetailView/BR250911A00268, ![채용공고 캡처](assets/img/c002-j001_recruit_01.png)",
+      "jd_links": null,
+      "spec_md": "https://wein.konkuk.ac.kr/ptfol/career/mentoring/findSuccessInfo.do?encSjmnbSeq=7402be2c632fd19219c9cfec06e60d88",
+      "talent_md": "https://www.shinhands.co.kr/career/talent",
+      "salary_md": null,
+      "location_md": "서울 중구",
+      "analysis_md": "1) 산업\n\n금융지주 계열 IT 자회사 중심으로 시장 주도 중임\n\n디지털 전환 확산 + 클라우드/AI/보안 신기술 도입 속도 빠름\n\n규제 강화·데이터 보안 이슈로 전문성/신뢰성 중요도 상승 중임\n\n2) 인재상\n\n인재상 링크: https://www.shinhands.co.kr/career/talent\n\n3) 지금 가장 중요한 문제\n\n금융 도메인 역량 강화: 금융 특화 ICT 경쟁력 + 직원 도메인 역량 강화에 집중 중임\n\n글로벌 사업 확장: 베트남 중심, 캄보디아·인도네시아 등 동남아 진출 추진 중임\n\n기술 시너지/파트너십 확대: AI·ERP 등 전문기업과 협업으로 기술 경쟁력 강화 중임\n\n4) 진행 중 핵심 프로젝트\n\n대법원 지능형 보안운영체계 구축: AI 기반 사이버보안 관제체계 설계·구축 중임\n\n베트남 SW 유통사업: 티맥스소프트 협력, 엔터프라이즈 SW 공급·현지화 확대 중임\n\nAI·DX 금융 서비스 개발: 인스웨이브 등과 금융 특화 AI 서비스 공동 발굴·협력 추진 중임\n\n5) 장기 전략\n\n글로벌 ICT 동반성장 모델 구축: 동남아 전역으로 현지화 개발·운영 모델 확장 목표임\n\n금융 IT 전문성 강화: 그룹 공통 ITSM 고도화 + 금융·보험연수원 교육 확대 추진 중임\n\n지속가능 성장 기반 확보: 본업 혁신 + 내부통제/윤리의식 강화로 지속가능성 확보 목표임"
+    },
+    {
+      "job_id": "J02",
+      "company_id": "CO02",
+      "slug": "CO02-J02",
+      "overview_md": "백화점 운영 및 유통 서비스를 제공하는 기업",
+      "recruit_links": "https://recruit.ehyundai.com/recruit-info/announcement/view.nhd?hireId=2025731&regCoCd=HDHOME",
+      "jd_links": "https://recruit.ehyundai.com/job-introduction/job-company-dtl.nhd?coCd=HDHOME&jobCd=JOB_CD_002&dtlJobCd=033",
+      "spec_md": "https://wein.konkuk.ac.kr/ptfol/career/mentoring/findSuccessInfo.do?encSjmnbSeq=9921ad9f0d8e67093654f1e121414273",
+      "talent_md": "https://samsungbiologics.com/kr/careers/value",
+      "salary_md": null,
+      "location_md": "서울, 경기,인천, 충남, 영남",
+      "analysis_md": "현대백화점 차별점\n\n디지털 전환 선도: AI 카피라이터 ‘루이스’, 데이터 마케팅 2.5 등 업계 최초 기술 도입함\n\n더현대: 브랜드·복합문화공간형 매장 컨셉으로 차별화 및 경쟁력 확보함\n\n시장 지위: 롯데·신세계와 함께 국내 백화점 Big3(점유율 3위권)로 분류됨\n\n매출 감소 및 순이익 적자전환 원인/흐름\n\n백화점 성장에도 불구하고 면세점 수요 회복 지연 + 지누스 미국향 매트리스 판매 부진으로 매출 전년동기대비 축소됨\n\n면세점 마케팅 비용 증가 + 지누스 실적 저하로 영업이익률 하락함\n\n관계기업투자주식처분손실, 매각예정비유동자산손상차손 반영으로 순이익 적자 전환됨\n\n전망/회복 포인트\n\n부산 ‘커넥트현대’ 오픈 효과로 집객 및 매출 확대 기대됨\n\n인천공항 면세점 명품 브랜드 입점 확대 통해 경쟁력 강화 전망임\n\n지누스 중국·멕시코·중동 등 글로벌 영업 확장으로 외형 성장 기대됨\n\n동종업계/연관 기업\n\n신세계\n\n한화갤러리아\n\n롯데백화점"
+    },
+    {
+      "job_id": "J03",
+      "company_id": "CO03",
+      "slug": "CO03-J03",
+      "overview_md": "바이오의약품 개발 및 상업화를 위해 삼성그룹의 바이오 사업 지주회사",
+      "recruit_links": "https://www.catch.co.kr/NCS/RecruitInfoDetails/520730",
+      "jd_links": "https://www.samsungcareers.com/subsid/detail/DA0(공정운영",
+      "spec_md": "https://wein.konkuk.ac.kr/ptfol/career/mentoring/findSuccessInfo.do?encSjmnbSeq=2e2b095ab298ed24629675dbeb2dc51b",
+      "talent_md": "https://samsungbiologics.com/kr/careers/value",
+      "salary_md": 2953,
+      "location_md": null,
+      "analysis_md": "산업: 바이오의약품 산업은 고부가가치 의약품 개발·생산 중심으로 고성장 중임\n\n글로벌 제약사 아웃소싱 수요 증가로 CDMO 시장 확대 중임\n\n혁신 기술 도입 + 대규모 생산설비 투자가 산업 경쟁력의 핵심 요소로 부상 중임삼성바이오로직스 차별점\n\n글로벌 최대 생산능력: 2025년 기준 78만4,000L로 초격차 유지 중임\n\n혁신 기술 투자: ADC, 유전자치료제 등 차세대 기술 선제 투자 중임\n\n4E 경영 가치: 고객만족/운영효율/최고품질/임직원역량 기반으로 글로벌 신뢰 구축 중임\n\n실적/수익성 흐름\n\n4공장 상업화 생산 본격화로 CDMO 성장 + 에피스(솔라리스 바이오시밀러) 매출 증가로 전년동기대비 매출 성장함\n\n매출 성장에 따라 원가·판관비 부담 완화 → 영업이익률 상승함\n\n법인세 부담 완화 등으로 순이익률도 상승, 수익구조 양호한 편임\n\n전망/성장동력\n\n유럽 제약사와 위탁생산 계약 체결, 고환율 지속, 에피스 마일스톤 유입 등으로 매출 성장세 이어질 전망임\n\n5공장 가동 준비 중으로 추가 성장동력 확보 기대됨\n\n연봉 / 거리\n\n연봉: 미기재(자료 필요함)\n\n거리: 미기재(근무지/거주지 기준 필요함)\n\n동종업계/연관 기업\n\n한미약품\n\n셀트리온\n\nSK바이오사이언스\n\n롯데바이오로직스"
+    },
+    {
+      "job_id": "J04",
+      "company_id": "CO04",
+      "slug": "CO04-J04",
+      "overview_md": "식자재 유통과 단체급식 등 푸드서비스를 제공하는 ",
+      "recruit_links": "https://recruit.cj.net/recruit/ko/recruit/recruit/detail.fo?zz_jo_num=8414",
+      "jd_links": "https://www.cjfreshway.com/career/job/introduce.do",
+      "spec_md": "https://wein.konkuk.ac.kr/ptfol/career/mentoring/findSuccessInfo.do?encSjmnbSeq=0346dbd07c56242eb38f39e768e619bc",
+      "talent_md": null,
+      "salary_md": "초봉\n2,953만 원\n~\n평균 연봉\n4,261만 원\n",
+      "location_md": null,
+      "analysis_md": "산업 요약\n\n외식·급식 시장 성장과 함께 식자재 유통/푸드서비스 산업 규모 확대 중임\n\n고객 맞춤형 솔루션, 품질·위생관리, 물류 효율화가 핵심 경쟁 요소로 부각 중임\n\nESG 경영, 지역 농산물 연계, 디지털 전환이 주요 트렌드로 자리잡는 중임\n\nCJ프레시웨이 차별점\n\n업계 최대 물류 인프라: 전국 단위 신속·정확 공급망 구축함\n\nAI 기반 맞춤형 주문: 데이터·AI 기반 1:1 상품 큐레이션 제공함\n\n지역 농산물 연계 강화: 지자체/공공기관 협력으로 판로 확대 기여함\n\n지금 가장 중요하게 보는 문제\n\n상품·물류 경쟁력 강화: 내수 침체 속 근원적 경쟁력 강화로 외식·급식 동반 성장 추구함\n\nO2O 유통/키친리스 급식 고도화: 온오프 연계 유통 + 이동식 급식 중심 성장전략 강화 중임\n\n수익성 중심 내실경영: 불확실성 대응 위해 수익성·재무구조 개선 및 성장동력 발굴 집중 중임\n\n진행 중 핵심 프로젝트\n\n푸드 솔루션 생태계 구축: 컨설팅~물류최적화까지 종합 솔루션 사업자로 전환 중임\n\nPB/차별화 상품 확대: PB 비중 확대, 고객 니즈 기반 상품 개발·물류 서비스 다각화 추진 중임\n\n외부 플랫폼 연계/신시장 개척: 플랫폼 연계로 접점 확대, 급식시장 세분화 및 신규 유통경로 개척 중임\n\n장기 전략\n\n미래 성장동력 확보: O2O 식자재 유통, 키친리스 급식 등 신사업 모델 고도화 추진함\n\n고객 맞춤형 솔루션 강화: 컨설팅·R&D·브랜드 개발 등 협업 역량 강화 지속함\n\n수익성/재무구조 개선: 내실경영 통해 지속가능 성장 및 시장 산업화 주도 목표임\n\n동종업계/연관 기업\n\n삼성웰스토리\n\n아워홈\n\n현대그린푸드\n\n신세계푸드\n\n동원홈푸드"
+    },
+    {
+      "job_id": "J05",
+      "company_id": "CO05",
+      "slug": "CO05-J05",
+      "overview_md": "선박, 플랜트, 철강, 자동차부품, 석유화학 등 다양한 제품의 수출입 서비스와 자원개발을 수행하는 기업",
+      "recruit_links": "1. 직무 개요\n•\t역할: 글로벌 시장에서 철강, 에너지, 석유화학, 기계·부품 등 다양한 제품의 수출입 및 삼국간 무역 수행.\n•\t목표: 신규 시장 개척, 해외 고객사와의 장기 파트너십 구축, 프로젝트 영업을 통한 회사 성장.\n2. 주요 업무\n•\t🌍 해외시장 조사 및 거래처 발굴\n•\t🤝 고객사 관리 및 계약 협상\n•\t🚢 수출입·물류·통관 관리\n•\t📊 매출·손익 관리 및 보고\n•\t⚡ 환율·국제 정세 리스크 대응\n•\t🔎 신사업 발굴 및 프로젝트 참여\n3. 필수 자격 요건\n•\t4년제 정규대학 졸업(예정)자.\n•\t병역 필 또는 면제자.\n•\t해외여행에 결격 사유가 없는 자.\n•\t어학 능력:\no\tTOEIC 800 이상\no\tTOEIC Speaking IM3 이상\no\tOPIC IM2 이상\n4. 우대사항\n•\t국제무역사, 무역영어 등 관련 자격증 소지자.\n•\t영어 외 제2외국어(중국어, 일본어, 스페인어 등) 능통자.\n•\t해외 인턴·교환학생·유학 경험자.\n•\t관련 산업(철강, 에너지, 석유화학 등) 이해도 높은 자.\n•\tMS Office, ERP 등 업무 툴 활용 능력.",
+      "jd_links": "\n1. 직무 개요\n•\t역할: 글로벌 시장에서 철강, 에너지, 석유화학, 기계·부품 등 다양한 제품의 수출입 및 삼국간 무역 수행.\n•\t목표: 신규 시장 개척, 해외 고객사와의 장기 파트너십 구축, 프로젝트 영업을 통한 회사 성장.\n2. 주요 업무\n•\t🌍 해외시장 조사 및 거래처 발굴\n•\t🤝 고객사 관리 및 계약 협상\n•\t🚢 수출입·물류·통관 관리\n•\t📊 매출·손익 관리 및 보고\n•\t⚡ 환율·국제 정세 리스크 대응\n•\t🔎 신사업 발굴 및 프로젝트 참여\n3. 필수 자격 요건\n•\t4년제 정규대학 졸업(예정)자.\n•\t병역 필 또는 면제자.\n•\t해외여행에 결격 사유가 없는 자.\n•\t어학 능력:\no\tTOEIC 800 이상\no\tTOEIC Speaking IM3 이상\no\tOPIC IM2 이상\n4. 우대사항\n•\t국제무역사, 무역영어 등 관련 자격증 소지자.\n•\t영어 외 제2외국어(중국어, 일본어, 스페인어 등) 능통자.\n•\t해외 인턴·교환학생·유학 경험자.\n•\t관련 산업(철강, 에너지, 석유화학 등) 이해도 높은 자.\n•\tMS Office, ERP 등 업무 툴 활용 능력.\n📅 해외영업 하루 일과\n시간대\t주요 활동\n08:30 ~ 09:00\t출근, 이메일 확인, 환율·원자재 가격 모니터링\n09:00 ~ 10:30\t팀 미팅, 해외 지사 화상회의, 거래 현황 공유\n10:30 ~ 12:00\t해외 바이어와 협상, 신규 시장 조사, 계약서 검토\n12:00 ~ 13:00\t점심 (동료·바이어와 네트워킹)\n13:00 ~ 15:00\t선적·물류·통관 관리, 은행 대금 결제 업무\n15:00 ~ 17:00\t프로젝트 영업, 신규 사업 아이디어 제안, 보고서 작성\n17:00 ~ 18:30\t협상 결과 정리, 다음날 일정 준비, 시차 맞춘 해외 미팅",
+      "spec_md": "https://wein.konkuk.ac.kr/ptfol/career/mentoring/findSuccessInfo.do?encSjmnbSeq=2be95800074720c4196c9898922e68f9",
+      "talent_md": null,
+      "salary_md": null,
+      "location_md": null,
+      "analysis_md": "산업 요약\n\n전통 트레이딩 중심에서 신사업 개척으로 수익구조 다각화 중임\n\n자원개발·신재생에너지·AI 등으로 사업영역 확장하며 수익성 개선 중임\n\n태양광·풍력·수소 등 청정에너지 원료 중심으로 글로벌 공급망 확보 추세임\n\n현대코퍼레이션 차별점\n\n자원개발 경험: 생산 5개 + 탐사 1개 등 총 6개 사업 영위 기반 보유함\n\n신재생에너지 투자: 한·일 태양광 발전단지 12개 보유, 확대 지속 중임\n\n사업 다각화: 철강/승용부품/상용에너지/기계선박/석유화학/자원개발 6개 부문 운영함\n\n지금 가장 중요한 문제(관심사)\n\n신사업 확장: 로봇·태양광 등 미래 성장영역 확대, 로보틱스 사업 목적 추가함\n\n친환경 사업 강화: 태양광 확대, 독일 업체와 재활용 JV 설립 등 추진 중임\n\n디지털화 추진: 무역절차 디지털화로 비용 절감·공급망 강화, 페이퍼리스/효율화 추진 중임\n\n진행 중 핵심 프로젝트\n\n독일 기업과 재활용 JV: 2025년 5월 첫 JV 설립, 친환경 전문성 강화 중임\n\n태양광 발전단지 확대: 기존 12개 기반 추가 투자로 포트폴리오 확장 중임\n\n로보틱스 사업 진출: 협업 스타트업 물색, 제조/판매/부품사업 추진 기반 마련 중임\n\n장기 전략\n\n사업구조 고도화: 단순 트레이딩 탈피, 고부가·신시장 중심 ‘선택과 집중’ 수행 중임\n\n친환경 사업 확대: 신재생에너지 중심 포트폴리오 재편, 지속가능 모델 구축 목표임\n\n글로벌 네트워크 강화: 정보력/거래기법/금융능력 활용해 종합상사 위상 강화 목표임\n\n동종업계/연관 기업\n\nLX인터내셔널\n\n포스코인터내셔널\n\nSK네트웍스\n\n삼성물산"
+    },
+    {
+      "job_id": "J05_2",
+      "company_id": "CO10",
+      "slug": "j05_2-co10",
+      "overview_md": "승용차, SUV, 상용차, 전기차 등을 제조하고 판매하는 글로벌 완성차 기업",
+      "recruit_links": "[현대자동차]HR 인재개발 신입사원 채용 공고\n\n\n조직소개\n우리 조직은 조직 구성원들이 발전적인 인재로 성장할 수 있도록 교육 체계를 수립하고 운영하며 조직문화를 개선하는 업무를 수행합니다.\n\n\n\n\n직무상세\n교육과정 기획 및 운영, 교육과정 개발, 조직문화 개선 프로그램 개발, 교육 투자예산/사업계획 수립 및 관리 업무를 진행합니다.\n\n■ 교육과정 기획\n　· 조직/구성원 니즈 분석 기반 교육 프로그램 기획/운영\n　· 생산공장 표준 교육체계 기반 교육과정 개발(콘텐츠 기획)\n\n■ 교육프로그램 운영\n　· 생산공장 교육운영 업무 수행\n　· 교육효과 측정 및 평가방법 개발, 교육 효과성 평가\n\n■ 표준 교육체계 수립\n　· 생산공장 인재육성 지향점 및 추진 전략 도출\n　· 생산공장 교육 실행계획 설계 및 교육체계 구축\n　· 생산공장 조직문화 개선 추진 전략 수립\n\n■ 교육 투자예산 수립 운영\n　· 생산공장 교육 투자예산 수립 및 효율적 배분\n　· 교육투자 예산 집행 및 실적 관리\n\n■ 사업계획 수립 및 관리\n　· 연간 팀 목표, 교육 운영방향 수립\n　· 교육 추진 전략, 세부 추진과제, 중장기 로드맵 수립\n\n\n\n\n지원자격\n· 학사/석사 학위를 기 취득하셨거나 학사/석사 '24년 8월 이내 졸업 예정이신 분\n· SPA lv 4 or OPIc IM2 or TOEIC Speaking 130 or TEPS Speaking 56 이상 영어회화 성적을 보유하신 분\n　('22.03.15 ~ '24.03.14 내 취득 점수 기준/ 영어권 해외대학 제외)\n· 해외여행에 결격 사유가 없는 분 (남성의 경우, 회사가 지정한 입사일까지 병역을 마쳤거나 면제되신 분)\n\n우대사항\n· 교육 관련 자격증을 보유하신 분\n· 제조업 교육 운영 경험을 보유하신 분",
+      "jd_links": "https://talent.hyundai.com/team/view.hc?seq=50&category=JOB",
+      "spec_md": null,
+      "talent_md": null,
+      "salary_md": "초봉\n5,010만 원\n\n평균 연봉\n7,708만 원",
+      "location_md": null,
+      "analysis_md": "산업 요약\n\n전기차 중심 친환경차 전환 가속 중이며 2024년 친환경차 판매비중 26.3%까지 성장함\n\n2025년 글로벌 수요는 물가 안정·금리 인하로 3.3% 증가 전망이나, 전기차 캐즘·보호무역 강화가 불확실성 요인임\n\n완성차 업계가 SDV·자율주행 중심으로 확장하며 모빌리티 서비스 기업으로 전환 중임\n\n현대자동차 차별점\n\n전동화 전략: ‘현대 모터 웨이’ 기반 2030년 EV 200만대 목표, E-GMP 전용 플랫폼 보유함\n\n글로벌 생산/R&D: 전 세계 생산기지 운영, 남양연구소·뉘르부르크링 등 R&D 네트워크 구축함\n\n미래 모빌리티 다각화: 자율주행·로보틱스·AAM·수소 등 선제 투자 중임\n\n지금 가장 중요하게 보는 문제\n\n전동화 전환: IMA 개발, 배터리 역량 고도화에 집중 중임\n\n자율주행 기술: 2027년 말 L2+ 양산 적용 목표, ‘아트리아 AI’ 기반 HD맵 없이 작동 기술 개발 중임\n\n미래 모빌리티 확장: 로보틱스·AAM·수소로 확장하며 스마트 모빌리티 솔루션 프로바이더 전환 추진 중임\n\n진행 중 핵심 프로젝트\n\nSDV 전환: 2025년까지 SW·AI·빅데이터 기반 커넥티비티 고도화 추진 중임\n\n‘플레오스(Pleos)’ 브랜드: 모빌리티 SW 브랜드 발표, 자율주행 AI ‘아트리아’ 개발 중임\n\n글로벌 생산기지 확장: 미국 EV 공급망 구축 및 신규 EV 공장으로 생산역량 강화 중임\n\n장기 전략\n\n비전: ‘휴머니티를 향한 진보’ 기반 인류애 관점으로 사업영역 발전 추진함\n\n2030 전동화 목표: EV 200만대 판매 + 주요 지역 EV 판매비중 53% 달성 목표임\n\n미래기술 리더십: 자율주행·로보틱스·AAM·수소에서 글로벌 리더십 확보 추진 중임\n\n동종업계/연관 기업\n\n르노코리아자동차\n\n기아\n\n케이지모빌리티\n\nGM"
+    },
+    {
+      "job_id": "J06",
+      "company_id": "CO06",
+      "slug": "CO06-J06",
+      "overview_md": "반도체 메모리, 시스템LSI, 파운드리 등 첨단 반도체 제품을 연구·개발·생산하는 기업",
+      "recruit_links": "채용공고 https://www.catch.co.kr/NCS/RecruitInfoDetails/520740",
+      "jd_links": "Recommended Subject\n전기전자(HW)\n반도체소자, 전자기학, 반도체집적공정, 기초전자회로등\n재료/금속\n반도체공정, 재료공학개론, 재료물리화학, 재료물성등\n화학/화공\n반도체공정, 유기/무기화학, 물리화학등\n기계\n고체역학, 메카트로닉스, 열역학, 동역학, 정역학, 유체역학등\n물리\n반도체물리, 고체물리, 양자역학, 전자기학, 플라즈마기초등\nRequirements\nPluses- 반도체기본동작원리, 공정개발등반도체개발의공정기술개선에필요한역량보유자- 반도체소자의물리적/재료화학적분석에필요한역량보유자- 빅데이터분석역량보유자- 직무와연관된경험보유자(프로젝트, 논문, 특허, 경진대회)- Big Data의 통계적Tool 활용가능자(R,Python등)\nCareer Vision- 공정엔지니어로서공정전반의연구및개발하는역량을배양할수있습니다.- 공정최적화와품질개선활동을통해공정전문가로성장할수있습니다.\n메모리사업부> 패키지개발\n메모리사업부(Memory Business)\n직무: 패키지개발\n근무지: 경기도화성\n고객맞춤형HBM Package의설계, 제품/구조/소재개발및Simulation과첨단제조공정기술을\n개발/최적화하고제품성능극대화를통해첨단반도체의가치를향상시키는직무\n※ HBM Package 제품: 4단, 8단, 12단, 16단, 20단구조및TCB, HCB 공법구조등\nRole\nHBM Package 설계- Memory 반도체의Package 구조및특성(전기적/열적/기계적) 설계- Chip과 Set Board간 신호, 전력 전송을위한System 설계- Data Center, AI용 Performance 향상을 위한 Customized Package 설계\nSimulation\nHBM Package 제품개발- Electrical Simulation(Signal/Power Integrity, EMI, RFI 설계)- Electrical/Thermal/Mechanical Simulation을 통한 Package 구조/소재/공정 최적화- 고객사용환경고려한Set Simulation- HBM Package 제품들의적기개발을위해Process Architecture 개발및Control- Package 최고성능과Value 경쟁력확보를위해신기술적용, 고객감동을위한\n최고의품질및수율확보- 미래최고Package 제품개발을위한HBM Package 로드맵및기술확보\n소재개발- HBM Package용유기/무기/고분자소재개발및소재의품질확보- Consumable 소재개발및최적화(CMP Slurry, Pad, CLN Chemical, PR소재 등)- HBM Package 특성/원가/품질경쟁력확보를위한차별화소재, 특성향상소재개발- 차세대Fundamental 소재연구및미래핵심소재요소기술개발",
+      "spec_md": "https://wein.konkuk.ac.kr/ptfol/career/mentoring/findSuccessInfo.do?encSjmnbSeq=d28c44c075628b8190b83d38e3036634",
+      "talent_md": null,
+      "salary_md": null,
+      "location_md": "경기도화성, 평택",
+      "analysis_md": "산업 요약\n\nAI·데이터센터·모바일 수요 증가로 글로벌 반도체 시장 성장 전망임\n\n첨단 공정 경쟁, 대규모 투자, 기술 혁신이 핵심 트렌드로 자리잡음\n\nAI 서버용 고성능 메모리(HBM 등)와 차세대 파운드리 공정이 경쟁력 좌우함\n\n삼성전자 DS부문 차별점\n\n메모리 시장 선도: DRAM·NAND 등 메모리 분야 세계 1위 점유율 유지 중임\n\n초미세 파운드리: 2나노 이하 첨단 공정 개발·양산 역량 보유함\n\nAI 반도체 대응: HBM, 고용량 DDR5 등 차세대 메모리 신속 공급 중임\n\n지금 가장 중요한 문제(관심사)\n\nAI 데이터센터용 고부가 메모리 집중: 고부가 메모리 개발·공급 역량 집중 중임\n\nHBM·파운드리 경쟁력 회복: 기술 리더십 회복 및 점유율 확대를 최우선 과제로 설정함\n\n협력사 상생 강화: 신뢰 기반 상생협력 체계 강화 중임\n\n진행 중 핵심 프로젝트\n\nHBM3E·HBM4 양산/공급: 글로벌 고객사 대상 HBM3E 12단 공급 및 HBM4 양산 추진 중임\n\n2나노 GAA 파운드리 양산: 2나노 GAA 기반 모바일 신제품 양산 및 거래선 확대 추진 중임\n\n엑시노스·이미지센서 고도화: 플래그십 진입 목표로 AP 경쟁력 강화, 고화소/저조도 센서 확대 중임\n\n장기 전략\n\nAI 반도체 시장 선도: 고부가 메모리+첨단 파운드리로 AI 시장 리더십 구축 목표임\n\n지속가능 성장/상생: 친환경 경영, 사회적 책임, 협력사 동반성장 기반 강화 목표임\n\n기술 리더십 회복: 메모리·파운드리·시스템LSI 전반 품질/혁신으로 리더십 회복 추진임\n\n동종업계/연관 기업\n\nDB하이텍\n\nSK하이닉스\n\nLX세미콘\n\n한미반도체"
+    },
+    {
+      "job_id": "J07",
+      "company_id": "CO07",
+      "slug": "CO07-J07",
+      "overview_md": "금융회사가 파산 등으로 예금을 지급할 수 없는 경우 예금자를 보호하고 금융제도의 안정성을 유지하는 역할을 하는 기업",
+      "recruit_links": "https://www.kdic.or.kr/di/empm/selectPbcrEmpmPbancDtl.d",
+      "jd_links": null,
+      "spec_md": "https://wein.konkuk.ac.kr/ptfol/career/mentoring/findSuccessInfo.do?encSjmnbSeq=d28c44c075628b8190b83d38e3036634",
+      "talent_md": null,
+      "salary_md": null,
+      "location_md": null,
+      "analysis_md": "산업(3줄 요약)\n\n금융회사 파산 등 위기 시 예금자 보호 제도 운영하는 산업임\n\n금융시장 불확실성 확대에 따라 예금자 보호 한도 상향 등 제도 개선 활발한 편임\n\n디지털 전환, ESG 경영, 글로벌 기준 강화가 주요 트렌드로 부상 중임\n\n예금보험공사(KDIC) 차별점\n\n예금보호한도 상향: 2025년 9월부터 1억원 확대(소비자 보호 강화) 내용 포함됨\n\n글로벌 리더십: IADI 이사국 참여로 국제 기준·협력 강화 중임\n\n디지털·ESG 경영: IT 기반 내부통제, ESG 정보공시 등 지속가능경영 체계 강화 중임\n\n최근 주요 관심사(중요하게 보는 문제)\n\n금융시장 안정성 강화: 불확실성 대응 및 금융소비자 보호 역량 최우선 과제로 설정함\n\n디지털 혁신 추진: 디지털혁신부 신설 등 전사 DT 가속화 중임\n\n예금자 보호 한도 확대: 2025년 9월 상향 추진/시행 내용 강조됨\n\n진행 중 핵심 프로젝트\n\n디지털 예보 구축: 조직·시스템 혁신 통한 디지털 체계 구축 추진 중임\n\n기금체계 개편 준비: 2026 저축은행 특별계정, 2027 상환기금 종료 대비 개편팀 신설 및 제도 개편 준비 중임\n\n혁신 아이디어 공모전: 경영관리/DT/ESG 등 혁신 아이디어 공모 정기 개최 중임\n\n장기 전략\n\n금융소비자 보호 강화: 보호한도 상향, 부실금융회사 신속 정리 등 보호 체계 강화 계획임\n\n디지털 기반 경영 혁신: 업무 효율화 및 미래 기반 확보를 장기 전략으로 설정함\n\n기금·리스크 관리 고도화: 기금체계 개편과 리스크 역량 강화로 시장 안정·지속가능성 도모함\n\n동종업계/연관 기관\n\n한국증권금융(KSFC)\n\n신용보증기금(KODIT)\n\n한국자산관리공사(캠코)\n\n한국주택금융공사(HF)\n\n한국예탁결제원(KSD)"
+    },
+    {
+      "job_id": "J08",
+      "company_id": "CO08",
+      "slug": "CO08-J08",
+      "overview_md": "전자상거래, 음식 배달, OTT 미디어, 핀테크 등 다양한 디지털 서비스를 제공하는 기업",
+      "recruit_links": "팀 소개\n쿠팡의 고객들이 매일 다양한 상품들을 빠르고 편리하게 만날 수 있도록 신규 상품을 신속히 등록하고 구매에 허들이 없도록 카탈로그 정보를 정확히 확인합니다.\n대규모 셀렉션을 효율적으로 등록하기 위해 프로세스를 운영 및 관리하고 지속적인 개선 사항을 도출해 최적화합니다.\n\n주요업무\n• 리테일 상품의 온보딩 프로세스 표준화 및 관리를 위한 기준을 수립\n• 리테일 상품의 온보딩 프로세스 각 단계의 단순화 및 자동화 - 데이터 기반의 인사이트 도출을 통해 Defect를 디텍팅하고 신속하게 개선 - 리테일 비지니스 조직과 협업을 통해 신규 프로젝트 프로세스 셋업\n• 운영 전략을 구조화하고 실행함과 동시에 가이드 및 매뉴얼의 체계적인 관리를 수행\n\n자격 요건\n• 최소?8년 이상 이커머스,?온/오프라인 마켓 프로세스 개선/혁신 및 관리 업무를 수행하신 분\n• 데이터를 기반으로 비즈니스 가치 분석 능력이 탁월하고 명확한 솔루션 도출 및 기획 문서 작성 능력 보유하신 분\n• 프로세스 표준화와?KPI?수립,?프로세스 제약점 도출 및 개선 능력을 보유하신 분\n• 프로그램 관리자로,?동시다발적 프로젝트들에 대한 우선순위 설정 능력을 보유하신 분\n• 급변하는 비즈니스 환경에서의 유연성과 긍정적 비전을 소유하신 분\n• 소규모 혹은 중규모 이상의 조직 운영 경험을 보유하신 분\n\n우대사항\n• 정량적 프로세스 개선 포트폴리오 제공 가능하신 분\n• 지표 설정 및 사업 관리 경험을 보유하신 분\n• 데이터 분석 기반의 비지니스 컨설팅 경험이 있으신 분\n• 비지니스 영어 구사 및 업무 의사소통이 가능하신 분\n• 대규모의 인력 운용과 관리 경험을 보유하신 분\n\n전형절차\n• 서류전형 - 전화면접 -?대면면접(화상) - ?최종?합격\n• https://www.bzpp.co.kr/biz/businessDetailView/BR240808A00199",
+      "jd_links": null,
+      "spec_md": "https://wein.konkuk.ac.kr/ptfol/career/mentoring/findSuccessInfo.do?encSjmnbSeq=8734b01e54036fb62f36c2dd07d3c9f9",
+      "talent_md": null,
+      "salary_md": null,
+      "location_md": null,
+      "analysis_md": "산업 3줄 요약\n\n모바일·IT 기술 발전 기반으로 국내 이커머스 시장 고성장 중임\n\n고객경험 혁신, 빠른 배송, 디지털 서비스 다양화가 핵심 경쟁요소로 부상함\n\n글로벌/국내 대형 플랫폼 경쟁 심화로 물류·데이터 기반 서비스 차별화가 핵심 트렌드임\n\n쿠팡 차별점\n\n로켓배송: 자체 물류 인프라 + 직영 배송으로 당일/익일 배송 제공함\n\n서비스 다각화: 배달, OTT, 핀테크 등 플랫폼 내 서비스 확장 중임\n\n글로벌 확장: 대만·유럽 등 해외 시장 진출로 영역 확대 중임\n\n지금 가장 중요하게 보는 문제\n\n고객 중심 경영: 모든 의사결정의 출발점을 고객에 둠\n\n운영 효율성 강화: 물류·배송·IT 전 부문 최적화로 마진 확대 추구함\n\n시장 점유율 확대: 경쟁 심화 속 독자 모델/실행력으로 점유율 확대 주력함\n\n진행 중 핵심 프로젝트\n\n로켓배송 고도화: 물류 네트워크·IT 시스템 지속 개선 중임\n\n신규 서비스 확장: 신선식품, 쿠팡이츠 등 카테고리 확장 중임\n\n글로벌 사업 강화: 해외 진출 및 현지화 전략 추진 중임\n\n장기 전략\n\n고객 경험 혁신: 서비스 개발·기술 투자로 차별화된 경험 제공 목표임\n\n지속가능 성장: 효율화·비용 절감·수익성 개선 기반 구축 중임\n\n글로벌 플랫폼 도약: 해외 진출/현지화로 글로벌 이커머스 플랫폼 지향함\n\n동종업계/연관 기업\n\n위메프\n\n네이버\n\n11번가"
+    },
+    {
+      "job_id": "J09",
+      "company_id": "CO09",
+      "slug": "CO09-J09",
+      "overview_md": "K-푸드를 기반으로 한 글로벌 종합식품과 BIO 사업을 영위하는 기업",
+      "recruit_links": "https://recruit.cj.net/recruit/ko/recruit/recruit/detail.fo?zz_jo_num=8253",
+      "jd_links": "https://cjcj-careers.com/interview14",
+      "spec_md": "https://wein.konkuk.ac.kr/ptfol/career/mentoring/findSuccessInfo.do?encSjmnbSeq=7cc6632afe87bd8d439611e02a22f4fe",
+      "talent_md": null,
+      "salary_md": null,
+      "location_md": null,
+      "analysis_md": "산업 요약\n\n2023년 기준 식품산업(제조+외식) 규모 36조 8천억원 수준의 성숙 시장임\n\n1인 가구 증가·고령화로 간편식/기능성/식물성 제품 수요 지속 증가 중임\n\nK-푸드 확산으로 해외 진출 활발, 김치·만두·떡볶이 등 글로벌 성장률 높음\n\nCJ제일제당 차별점\n\nK-푸드 글로벌 선도: 비비고 만두 북미 점유율 1위, 49개국 수출 등 세계화 주도함\n\nBIO 경쟁력: 아미노산 발효 기반 BIO 매출 연 4조원+, 스페셜티 비중 21% 수준임\n\n통합 가치사슬: 제조~유통(CJ더마켓)~외식(몽중헌/덕후선생)까지 수직 통합 구조 보유함\n\n최근 주요 관심사(중요 문제)\n\n글로벌 신영토 확장: 2024년 해외 식품 매출이 전체 식품 매출의 49.2%로 역대 최대 수준 달성함\n\n조직문화 혁신: 위계적 명칭 폐지, 영문 기반 수평 조직명으로 전환 추진 중임\n\n지속가능경영: Green BIO, 생분해성 소재 PHA 대량생산 등 친환경 모델 구축 중임\n\n진행 중 핵심 프로젝트\n\n북미 K-푸드 신공장: 2027년 가동 목표, 미국 사우스다코타주 수폴스 생산기지 건설 중임\n\n유럽 헝가리 공장: 2026년 가동 목표, 유럽 생산기지 구축으로 경쟁력 강화 추진 중임\n\n스페셜티 BIO 확대: 트립토판/알지닌/발린 등 고부가 제품 판매 확대 통해 수익성 개선 중임\n\n장기 전략\n\nGlobal Ethnic Food Leader: 2030년까지 에스닉 푸드 시장 선도 및 K-푸드 표준화 목표임\n\nBIO 기술 혁신: 친환경 소재·precision fermentation 등 차세대 BIO 기술로 성장동력 확보 목표임\n\n디지털 전환: AI/데이터 기반 스마트팩토리 + 디지털 마케팅 강화 추진 중임\n\n동종업계/연관 기업\n\n오뚜기, 대상, 대한제당, 삼양사, 사조해표"
+    },
+    {
+      "job_id": "J9_2",
+      "company_id": "CO06_2",
+      "slug": "j9_2-co06_2",
+      "overview_md": "반도체 메모리, 시스템LSI, 파운드리 등 첨단 반도체 제품을 연구·개발·생산하는 기업",
+      "recruit_links": null,
+      "jd_links": "Role     \n 채용 \n  -  글로벌 선진사 및 국내외 유수 대학에서 회사의 미래를 책임질 우수인재 발굴 \n  -  사업성과 달성을 위해 각 조직별 필요한 인재를 적기에 확보해 적재적소에 배치 \n \n 인사제도 \n  -  공정하고 객관적인 평가,  승격 및 보상 제도의 기획과 운영 \n  -  회사의 성장을 견인할 우수인재 전략적 양성 및 차세대 경영진 후보군 선발/관리 \n \n 해외인사  \n -  해외 거점별 사업 전략에 맞춘 인적 자원의 효율적 운영 및 해외주재원 선발 \n  -  글로벌  Trend 에 맞춘 인사전략 수립 및 평가/보상제도 운영 \n \n 인력운영 \n  -  사업전략과 연계한 인력 계획 수립 및 수급 관리 \n  -  직무순환,  인재양성 등의 전략 수립을 통한 효율적 인적자원 관리 \n \n 노사관리 \n -  근로 환경 관련 임직원  VoC 를 확인 및 분석하여 해결 \n  -  노동 관련 법령 또는 법 개정 사항을 당사의 규정에 적용 \n \n 보상/복리후생 \n  -  임금수준과 임금체계를 공정하게 관리하여 우수 인력 확보 및 개인별 동기부여 제고 \n  -  당사에 최적화된 보상 및 복리후생 모델 연구 \n \n 인재개발 \n  -  경영목표에 부합하는 개인과 조직의 역량 개발을 위한 교육 전략 및 운영계획 수립   \n-  리더십,  직무,  글로벌 등 교육기획 및 운영,  교육 방법론 개발 및 활용,  진단 및 분석 ",
+      "spec_md": "https://wein.konkuk.ac.kr/ptfol/career/mentoring/findSuccessInfo.do?encSjmnbSeq=017e3b61649d99b8949673f0e1493ed8",
+      "talent_md": null,
+      "salary_md": null,
+      "location_md": "경기도 기흥,  화성,  수원,  평택,  충청남도 천안,  온양 ",
+      "analysis_md": "산업 요약\n\nAI·데이터센터·모바일 수요 증가로 글로벌 반도체 시장 성장 전망임\n\n첨단 공정 경쟁, 대규모 투자, 기술 혁신이 핵심 트렌드로 자리잡음\n\nAI 서버용 고성능 메모리(HBM 등)와 차세대 파운드리 공정이 경쟁력 좌우함\n\n삼성전자 DS부문 차별점\n\n메모리 시장 선도: DRAM·NAND 등 메모리 분야 세계 1위 점유율 유지 중임\n\n초미세 파운드리: 2나노 이하 첨단 공정 개발·양산 역량 보유함\n\nAI 반도체 대응: HBM, 고용량 DDR5 등 차세대 메모리 신속 공급 중임\n\n지금 가장 중요한 문제(관심사)\n\nAI 데이터센터용 고부가 메모리 집중: 고부가 메모리 개발·공급 역량 집중 중임\n\nHBM·파운드리 경쟁력 회복: 기술 리더십 회복 및 점유율 확대를 최우선 과제로 설정함\n\n협력사 상생 강화: 신뢰 기반 상생협력 체계 강화 중임\n\n진행 중 핵심 프로젝트\n\nHBM3E·HBM4 양산/공급: 글로벌 고객사 대상 HBM3E 12단 공급 및 HBM4 양산 추진 중임\n\n2나노 GAA 파운드리 양산: 2나노 GAA 기반 모바일 신제품 양산 및 거래선 확대 추진 중임\n\n엑시노스·이미지센서 고도화: 플래그십 진입 목표로 AP 경쟁력 강화, 고화소/저조도 센서 확대 중임\n\n장기 전략\n\nAI 반도체 시장 선도: 고부가 메모리+첨단 파운드리로 AI 시장 리더십 구축 목표임\n\n지속가능 성장/상생: 친환경 경영, 사회적 책임, 협력사 동반성장 기반 강화 목표임\n\n기술 리더십 회복: 메모리·파운드리·시스템LSI 전반 품질/혁신으로 리더십 회복 추진임\n\n동종업계/연관 기업\n\nDB하이텍\n\nSK하이닉스\n\nLX세미콘\n\n한미반도체"
+    },
+    {
+      "job_id": "J9_3",
+      "company_id": "CO16",
+      "slug": "j9_3-co16",
+      "overview_md": "국내외 호텔과 리조트 운영, 회원제 숙박 서비스 및 복합 레저시설을 제공하는 기업",
+      "recruit_links": "https://www.jobkorea.co.kr/Recruit/GI_Read/47529168",
+      "jd_links": null,
+      "spec_md": "https://wein.konkuk.ac.kr/ptfol/career/mentoring/findSuccessInfo.do?encSjmnbSeq=769d0a957e8ee12b605cdd4ebdf31f0e",
+      "talent_md": null,
+      "salary_md": "2,565만 원~3,858만 원\n",
+      "location_md": null,
+      "analysis_md": "산업 요약\n\n대형 체인 중심 경쟁 심화되는 중임\n\n고객 경험 차별화, 프리미엄 서비스, 복합 레저시설 확장이 주요 트렌드임\n\n관광 수요 회복과 함께 해외 진출 및 사업 다각화 활발한 편임\n\n소노인터내셔널 차별점\n\n국내 최대급 호텔·리조트 체인: 국내 17개·해외 5개 운영 규모 강조함\n\n복합 레저 인프라: 스키장·워터파크·골프장 등 사계절 시설 직접 운영함\n\n항공업 진출: 티웨이항공·에어프레미아 지분 인수로 항공-관광 시너지 강화 방향임\n\n최근 주요 관심사(중요 문제)\n\n유가증권시장 상장 추진: 2025년 하반기 목표로 기업가치 제고·투자유치 집중 중임\n\n항공·숙박 연계 신사업: 티웨이항공 기반 패키지/신규 상품 개발 주력 중임\n\n글로벌 확장: 미국·프랑스 등 해외 인수로 거점 확대 및 수요 확보 추진 중임\n\n진행 중 핵심 프로젝트\n\n프리 IPO 투자 유치: 최대 5,000억원 규모 투자 유치 및 상장 준비 병행 중임\n\n티웨이항공 시너지: 항공+숙박 패키지 상품 개발 추진 중임\n\n해외 호텔 인수·운영: 프랑스(파리)·미국(하와이) 등 해외 자산 기반 확장 중임\n\n장기 전략\n\n글로벌 종합 관광기업 도약: 국내외 운영 역량 기반 글로벌 성장 목표임\n\n포트폴리오 다각화: 숙박·회원권·식음·렌털 등 통합 리조트 구조 강화 방향임\n\n지속가능 성장 기반: 안정적 수익구조 + 글로벌 네트워크 확대로 장기 성장 추구함\n\n동종업계/연관 기업\n\n한화호텔앤드리조트\n\n파라다이스호텔\n\n부산롯데호텔\n\n조선호텔앤리조트"
+    },
+    {
+      "job_id": "J10",
+      "company_id": "CO11",
+      "slug": "j10-co11",
+      "overview_md": "중소기업 및 창업기업을 위한 금융 서비스와 창업 육성 플랫폼을 제공하는 기업",
+      "recruit_links": "https://linkareer.com/activity/227190\n\n",
+      "jd_links": null,
+      "spec_md": "https://wein.konkuk.ac.kr/ptfol/career/mentoring/findSuccessInfo.do?encSjmnbSeq=46e89769749e1f377e3063824ebbd5dc",
+      "talent_md": null,
+      "salary_md": null,
+      "location_md": null,
+      "analysis_md": "산업 요약\n\n시중은행 + 정책금융기관 공존 구조이며, 중소기업·창업기업 지원 비중이 큰 편임\n\n디지털 혁신 확산으로 AI·빅데이터 활용이 금융권 핵심 경쟁요소로 부상함\n\n정책금융기관 중심으로 창업 생태계 활성화 및 혁신기업 육성 위한 금융·비금융 지원 확대 중임\n\nIBK기업은행 차별점\n\n중소기업 특화 금융: 63년 축적 데이터 기반 맞춤형 금융 제공함\n\n창업육성 플랫폼: IBK창공 통해 혁신 창업기업 성장·글로벌 진출 지원함\n\nAI·빅데이터 활용: 미래성장모형 등으로 성장 가능성 예측 및 지원 고도화함\n\n지금 가장 중요하게 보는 문제(관심사)\n\n중소기업금융 강화: 중소기업·소상공인 지원을 핵심가치로 두고 금융지원 확대 중임\n\n고객가치 제고: 잠재 니즈 기반 최적 솔루션 제공하는 고객 중심 경영 추진 중임\n\n건전성·수익성 관리: 안정적 은행 운영 위해 건전성·수익성 관리 강화 중임\n\n진행 중 핵심 프로젝트\n\n성장사다리 역할 강화: 기업 생애주기별 맞춤형 금융·지원 서비스 확대 중임\n\n설비투자·수출기업 우대금융: 성장기 기업 재도약 지원 위한 우대금융 강화 중임\n\n기업승계 지원모델 구축: M&A 지원조직 확충, 차별화된 승계 지원모델 개발 중임\n\n장기 전략\n\n미래 성장동력 확보: 중소기업 기술력 강화·혁신기업 발굴로 국가 성장동력 기여 추진함\n\n지속가능 금융 실현: 사회적 책임·지속가능성 반영 금융상품/서비스 개발 추진함\n\n고객중심 경영 내재화: 고객가치 최우선 문화를 정착시켜 본원 경쟁력 강화 목표임\n\n동종업계/연관 기업\n\n우리은행\n\n한국산업은행\n\n신한은행"
+    },
+    {
+      "job_id": "J11",
+      "company_id": "CO12",
+      "slug": "j11-co12",
+      "overview_md": "반도체 제조 공정에 필수적인 극자외선(EUV) 노광장비 및 첨단 포토 리소그래피 장비를 공급하고 기술 지원을 제공하는 기업",
+      "recruit_links": "https://midasin-asmlkorea.recruiter.co.kr/career/jobs/32121",
+      "jd_links": "https://www.asml.com/ko/company/about-asml",
+      "spec_md": "https://wein.konkuk.ac.kr/ptfol/career/mentoring/findSuccessInfo.do?encSjmnbSeq=913ba4713c7d482abd3d93f83cd5ca37",
+      "talent_md": null,
+      "salary_md": null,
+      "location_md": null,
+      "analysis_md": "산업 요약\n\n미세공정 발전으로 첨단 반도체 장비 중요도 크게 상승 중임\n\nEUV 등 차세대 노광장비는 7나노 이하 초미세 회로 구현에 필수 요소임\n\n장비 시장은 기술 혁신 경쟁과 공급망 안정화가 주요 이슈로 부상 중임\n\nASML코리아 차별점\n\nEUV 노광장비 독점 공급: 7나노 이하 공정 필수 EUV 장비를 세계 유일 공급 중임\n\n국내 고객사 밀착 지원: 삼성전자·SK하이닉스 현장 상주 기반 유지보수·기술지원 수행함\n\n글로벌 기술 네트워크: 네덜란드 본사 연계 R&D·기술 협업 체계 보유함\n\n지금 가장 중요하게 보는 문제(관심사)\n\n한국 내 사업 확장: 화성 신사옥·글로벌 트레이닝센터 완공 기반 현지 공략/인재 양성 집중 중임\n\n초미세 공정 경쟁력: 2~1nm 시대 대비 노광장비 기술 개발 및 고객사 협력 강화 중임\n\n반도체 인재 육성: 여성 이공계 멘토링 등으로 전문 인력 확보/역량 강화 추진 중임\n\n진행 중 핵심 프로젝트\n\n화성 뉴캠퍼스 운영: 교육·실습 인프라로 고객사 엔지니어 교육/기술지원 강화 중임\n\nEUV/DUV 기술 고도화: 3nm 이하 대응 차세대 장비 개발·공급 역량 확대 중임\n\nAI·첨단기술 투자: 미스트랄 AI 투자 등 글로벌 협력 및 생태계 확장 추진 중임\n\n장기 전략\n\n한국 거점 강화: 생산·서비스·교육·연구 역량 국내에서 지속 확대 계획임\n\n초미세 공정 선도: 2nm 이하 시대 대비 기술 혁신 및 고객사 협력 강화 목표임\n\n글로벌 기술 생태계 구축: AI·반도체 등 첨단 분야 파트너십/투자 확대 추진 중임\n\n동종업계/연관 기업\n\n도쿄일렉트론코리아\n\n램리서치코리아"
+    },
+    {
+      "job_id": "J12",
+      "company_id": "CO14",
+      "slug": "j12-co14",
+      "overview_md": "석유화학, 첨단소재, 생명, 배터리 소재 등 다양한 화학제품을 생산·공급하는 기업",
+      "recruit_links": "제품 API 관리 (시험기준 및 방법서 점검, 시험데이터 검토 및 이슈사항 처리)\n•\t원자재 관리 (원자재 기준서 작성, 시험데이터 검토 및 이슈사항 처리)\n•\tGMP 규정에 따른 품질관리 및 문서화\n•  지원 자격 (필수사항)\n•\t생명공학/화학/미생물 등 이공계 전공\n•\t학사 학위 이상 (졸업예정자 포함)\n•\t해외여행 결격사유 없음, 남성은 군필 또는 면제\n•  우대사항\n•\t외국어 역량 (비즈니스 레벨 영어)\n•\t석·박사 학위 (특히 R&D 분야)\n•\tGMP 관련 경험 및 품질관리 인턴 경험https://biology.ewha.ac.kr/rcruit/?bmode=view&idx=92405028",
+      "jd_links": "시간대\t주요 활동\t설명\n오전 출근 후\t시료 수령 및 시험 계획 수립\t생산라인에서 전달된 원료·제품 샘플 확인, 시험 일정 조율\n오전 중반\t분석 시험 수행\tHPLC, 미생물 시험, 안정성 시험 등 진행\n점심 이후\t데이터 정리 및 검증\t시험 결과 기록, 이상치 확인, 동료 검증\n오후\t품질 문서 작성 및 보고\t시험 성적서 작성, GMP 문서 업데이트, QA 보고\n퇴근 전\t품질 개선 회의\t생산팀·R&D팀과 협업, 품질 이슈 논의 및 개선안 도출\n6. 커리어 전망\n•\tQC/QA 전문가 → 규제 대응 전문가 → 글로벌 제약사 품질관리직\n•\t품질관리 경험은 향후 품질보증(QA), 규제 대응, 신약 개발 품질 전략 분야로 확장 가능",
+      "spec_md": "https://wein.konkuk.ac.kr/ptfol/career/mentoring/findSuccessInfo.do?encSjmnbSeq=385371b9404b6a5846e0e81a8dcedbca",
+      "talent_md": null,
+      "salary_md": "초봉5,010만 원\n평균 연봉7,708만 원",
+      "location_md": "•\t전북 익산시 (생산/품질그룹",
+      "analysis_md": "산업 요약\n\n석유화학·첨단소재·배터리 소재 등 전반에서 글로벌 경쟁 치열한 편임\n\n친환경·지속가능성·바이오 소재 등 미래 성장동력 투자 확대 중임\n\n중국발 가격 경쟁, 원자재 가격 변동성, 환경 규제 강화가 주요 이슈임\n\nLG화학 차별점\n\n신성장동력 강화: 친환경·바이오 소재·화학적 재활용 등 적극 투자 중임\n\n글로벌 경쟁력: 글로벌 마케팅 강화 + 국제 환경·안전 기준 도입으로 차별화 추진함\n\nR&D 혁신: 첨단소재·배터리 분야 기술 내재화 및 혁신 지속 추진함\n\n최근 주요 관심사(중요 문제)\n\n사업구조 전환 가속화: 석유화학 중심 → 전지소재/친환경소재/혁신신약 중심으로 전환 중임\n\n수익성·원가 경쟁력 강화: 원가 절감, 포트폴리오 고도화, 자원 배분 효율화로 수익성 개선 집중함\n\n지속가능경영 실천: ESG 강화, 친환경 소재, 순환경제 기반 경영체계 구축 중임\n\n진행 중 핵심 프로젝트\n\n전지 소재 확대: EV·ESS 성장 대응, 양극재 등 배터리 소재 대규모 투자 진행 중임\n\n친환경 소재 개발: 생분해성 플라스틱·바이오 소재 개발/상용화 집중 중임\n\n혁신 신약 R&D: 글로벌 타깃 파이프라인 확대 및 바이오 역량 강화 추진 중임\n\n장기 전략\n\n3대 신성장동력 집중: 전지소재·친환경소재·혁신신약 중심으로 2025년까지 10조원+ 투자 계획임\n\n글로벌 사업 확장: 해외 생산기지 확대, 파트너십 강화, 현지화로 경쟁력 제고 추진함\n\n지속가능 가치 창출: 고객 중심·민첩성·실행력·협업·지속가능성을 핵심가치로 장기 기업가치 제고 목표임"
+    },
+    {
+      "job_id": "J13",
+      "company_id": "CO15",
+      "slug": "j13-co15",
+      "overview_md": "종합 엔지니어링 설계, 감리, 컨설팅 및 신재생에너지 발전사업을 수행하는 기업",
+      "recruit_links": "https://dohwa.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=229792",
+      "jd_links": "상하수도 설계\n담당업무\n•\t국내외 상하수도 분야의 조사, 계획, 설계, 분석/평가 등 상하수도의 전반적인 업무를\n수행합니다.\n•\t상하수도, 환경 관련 분야의 신사업 개발 및 설계 업무를 수행합니다.\n필요역량\n•\t활발하고 능동적인 소통역량과 글로벌 경쟁이 가능한 전문성 및 외국어 능력\n•\t적극적이고 창의적인 자세와 다양한 자료를 활용하여 결론을 도출하는 능력\n성장가능성\n•\t국내외 풍부한 상하수도 업무 수행경험을 통해 전문적인 지식과 실무 경험을 겸비한\n상하수도 전문가로 성장할 수 있습니다.\n•\t프로젝트를 총괄하는 PMC 전문가로 성장할 수 있습니다.\n관련 전공 및 자격사항\n•\t토목공학, 환경공학\n•\t토목기사, 환경기사(수질 등)\n그 외 직무https://dohwa.recruiter.co.kr/appsite/company/callSubPage?code1=1000&code2=1200",
+      "spec_md": "https://wein.konkuk.ac.kr/ptfol/career/mentoring/findSuccessInfo.do?encSjmnbSeq=866008bf2d1f85c90015ce578fbc2dfc",
+      "talent_md": null,
+      "salary_md": "4490~6720",
+      "location_md": null,
+      "analysis_md": "산업 요약\n\nSOC 확충, 도시화, 친환경 인프라 수요 증가로 엔지니어링 산업 성장 중임\n\n신재생에너지, 스마트시티, 친환경 설계 등 미래지향 프로젝트가 주요 트렌드로 부상함\n\n국내 대형 엔지니어링사의 해외 경쟁력 인정되며 해외 수주 확대 중임\n\n도화엔지니어링 차별점\n\n국내 1위 컨설팅: 종합 엔지니어링 컨설팅 분야 시장 점유율 및 수행 경험 강점 보유함\n\n글로벌 경쟁력: ENR 글로벌 설계사 순위 91위로 해외 시장 경쟁력 인정받음\n\n신재생에너지 확대: 친환경 발전소 건설 등 친환경 사업 영역 확장 중임\n\n최근 주요 관심사(중요 문제)\n\n해외 인프라 프로젝트 확대: 페루 공항 PMC, 몽골 메트로 등 해외 수주로 진출 강화 중임\n\n종합 엔지니어링 역량 강화: 수자원~도시계획~교통~환경 등 전 과정 컨설팅 역량 집중 중임\n\n지속가능/환경경영 강화: ISO 14001 기반 친환경 설계 및 지속가능 인프라 체계 강화 중임\n\n진행 중 핵심 프로젝트\n\n페루 친체로 국제공항 PMC: 2019년 수주, 남미 인프라 시장 입지 확대 중임\n\n몽골 울란바토르 메트로 1호선: 2024년 7월 수주, 교통 인프라 개발 참여 중임\n\n국내 대형 인프라 설계·감리: 상하수도/도로/철도/항만 등 주요 프로젝트 지속 수행 중임\n\n장기 전략\n\n글로벌 시장 확대: 아시아·남미 등 신흥시장 중심 해외 수주 확대 추진함\n\n기술 혁신·품질경영: ISO 9001 기반 설계/감리/CM 전 과정 품질 향상 추진함\n\n지속가능 도시·환경 개발: 친환경 설계, 수자원, 도시계획 중심 R&D 및 사업 확장 집중함\n\n동종업계/연관 기업\n\n한국종합기술\n\n유신\n\n현대엔지니어링\n\n건화"
+    },
+    {
+      "job_id": "J14",
+      "company_id": "CO17",
+      "slug": "j14-co17",
+      "overview_md": "자동차 3대 핵심모듈과 전동화·자율주행 부품을 제조하여 글로벌 완성차업체에 공급하는 기업",
+      "recruit_links": null,
+      "jd_links": null,
+      "spec_md": "https://wein.konkuk.ac.kr/ptfol/career/mentoring/findSuccessInfo.do?encSjmnbSeq=296244c3f7d28b49bc58c009bab5bf5c",
+      "talent_md": null,
+      "salary_md": null,
+      "location_md": null,
+      "analysis_md": "산업 요약\n\n전동화·자율주행·커넥티비티 중심으로 부품 시장 재편 중임\n\nEV 캐즘·보호무역 속에서도 배터리시스템/구동모터/자율주행 센서 기술 경쟁 심화 중임\n\n완성차 아웃소싱 확대에 따라 부품사 기술력·공급망 안정성 중요도 상승 중임\n\n현대모비스 차별점\n\n글로벌 톱6 부품사: 보쉬/덴소/ZF/마그나에 이어 6위 수준, 아이신 추월 내용 포함됨\n\n수소전기차 선도: 수소 핵심부품 일괄 대량생산 체제 구축, 연 3천대 규모 생산능력 보유함\n\n통합 모듈 공급: 섀시·칵핏·프론트엔드 3대 모듈 통합 공급, JIS(Just-In-Sequence) 최적화 역량 보유함\n\n최근 주요 관심사(중요 문제)\n\n모빌리티 플랫폼 프로바이더 전환: SW+HW 통합 솔루션(전동화/자율주행/커넥티비티) 개발 집중 중임\n\n글로벌 수주 확대: 현대차·기아 의존도 낮추고 VW·벤츠 등 글로벌 고객 수주 확대 중임(’24 해외수주 92억달러, YoY +98% 언급됨)\n\n수익성 기반 성장: 매출 확대와 함께 영업이익 개선 추구 중임(’24 영업이익 3조 735억원, YoY +33.9% 언급됨)\n\n진행 중 핵심 프로젝트\n\n홀로그래픽 윈드쉴드 디스플레이: CES 2025 공개 기술 상용화 추진 중임\n\n자율주행 L4 실증: 인천 송도–영종 60km 구간 실증 운행, SW 플랫폼 개발 중임\n\n전동화 연구동 운영: 의왕 전동화 연구센터 설립, 배터리/구동/전력변환 통합 개발 추진 중임\n\n장기 전략\n\n“Lead the Shift in Mobility”: 퍼스트 무버 지향, 1등 기술 확보로 패러다임 견인 목표임\n\n연간 13조원 수주 목표: 북미·유럽·중국·인도 4대 거점 중심 고객 다변화 추진 중임\n\nUAM·로보틱스 확장: 자동차 외 영역으로 신성장동력 확보 추진 중임\n\n동종업계/연관 기업\n\n유라코퍼레이션\n\n대성전기\n\n한온시스템"
+    },
+    {
+      "job_id": "J2_2",
+      "company_id": "CO18",
+      "slug": "j2_2-co18",
+      "overview_md": "섬유, 석유화학, 슈퍼섬유 등 소재 분야에서 기술력과 품질 경쟁력을 바탕으로 성장해온 기업",
+      "recruit_links": "회계팀 신입사원 채용[주요 업무]- 별도 및 연결 재무제표 작성 및 검토 지원- 부가가치세(VAT) 신고 및 경비 관리- 출납 업무 및 자금 관리 지원- 회계결산 관련 자료 정리 및 감사 대응 지원- 회계시스템 운영 및 데이터 관리[필수요건]- 상경계열 학사 학위 이상(신입 지원 가능)- 회계 기본지식 및 전산회계 프로그램 사용 가능자- (우대) KICPA 또는 CTA 1차 합격자- (우대) 회계 관련 자격증 소지자 (전산세무, FAT, TAT 등)[전형절차]- 서류전형(~12/5) → 역량검사(~12/9) → 1-2차 면접(~12/19) → 최종 합격 및 입사(`26년 1월 중)",
+      "jd_links": null,
+      "spec_md": "https://wein.konkuk.ac.kr/ptfol/career/mentoring/findSuccessInfo.do?encSjmnbSeq=296244c3f7d28b49bc58c009bab5bf5c",
+      "talent_md": null,
+      "salary_md": "4,047만 원~\n6,227만 원\n\n",
+      "location_md": null,
+      "analysis_md": "산업 요약\n\n국내 섬유·화학 산업 전통적으로 보수적, 안정적 수익구조 기반으로 성장해옴\n\n최근 ESG 경영, 외부 인사 영입, 신사업 진출 등 변화 움직임 뚜렷해지는 중임\n\n글로벌 경쟁 심화 + 친환경 소재 개발 + 고부가 제품 확대가 주요 트렌드임\n\n태광산업 차별점\n\n기술력 기반 소재 개발: 나일론·아크릴·아라미드 등 첨단소재 기술력 보유함\n\n안정적 수익 구조: 스판덱스·PTA 등에서 꾸준한 수익 창출 중임\n\n경영 변화 추진: 외부 감사, 사외이사 도입, ESG 강화 등 변화 시도 중임\n\n최근 주요 관심사(중요 문제)\n\n사업구조 전환 가속화: 섬유·석유화학 중심 → 화장품/에너지/부동산개발 등으로 축 전환 집중함\n\n대규모 신사업 투자: 내년까지 약 1조5천억원 투자로 성장동력 확보 추진함\n\n조직문화 혁신: MZ 주니어보드 운영 등 젊은 직원 아이디어를 경영에 반영 중임\n\n진행 중 핵심 프로젝트\n\n화장품 사업 진출 추진 중임\n\n에너지 사업 확대 추진 중임\n\n부동산 개발 투자 확대 중임\n\n장기 전략\n\n사업 포트폴리오 다각화로 경기 리스크 분산 및 안정 수익원 확보 목표임\n\n신사업 중심 지속가능 성장 기반 구축 추진함\n\n조직 내 소통·혁신 강화(젊은 인재 의견 반영) 통해 유연성 제고 목표임\n\n동종업계/연관 기업\n\n코오롱인더스트리, SKC, 롯데케미칼, 휴켐스, 효성"
+    },
+    {
+      "job_id": "J15",
+      "company_id": "CO13",
+      "slug": "j15-co13",
+      "overview_md": "모빌리티 소프트웨어와 디지털 전환 솔루션을 개발 및 제공하는 기업",
+      "recruit_links": "https://www.jobkorea.co.kr/Recruit/GI_Read/47284164",
+      "jd_links": null,
+      "spec_md": "https://wein.konkuk.ac.kr/ptfol/career/mentoring/findSuccessInfo.do?encSjmnbSeq=b6cade4a982e82292794414ab635cedd",
+      "talent_md": null,
+      "salary_md": null,
+      "location_md": null,
+      "analysis_md": null
+    }
+  ]
+}

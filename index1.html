@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>삼성 SDS 홈페이지</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #000;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .section {
+            display: none;
+            margin-top: 20px;
+        }
+        .section h2 {
+            color: #333;
+        }
+        .button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>삼성 SDS</h1>
+        <p>클라우드, AI, 데이터 분석 기반의 디지털 전환(Digital Transformation) 서비스를 제공하는 기업</p>
+    </header>
+
+    <div class="container">
+        <!-- 버튼 -->
+        <button class="button" onclick="toggleSection('overview')">개요</button>
+        <button class="button" onclick="toggleSection('jobPostings')">채용공고</button>
+        <button class="button" onclick="toggleSection('jobDescription')">직무기술서</button>
+        <button class="button" onclick="toggleSection('candidateSpecs')">합격자 스펙</button>
+        <button class="button" onclick="toggleSection('companyAnalysis')">기업분석</button>
+
+        <!-- 각 섹션 -->
+        <div id="overview" class="section">
+            <h2>개요</h2>
+            <p>삼성 SDS는 클라우드, AI, 데이터 분석을 기반으로 디지털 전환(Digital Transformation) 서비스를 제공하는 글로벌 IT 기업입니다.</p>
+        </div>
+
+        <div id="jobPostings" class="section">
+            <h2>채용공고</h2>
+            <p><a href="https://linkareer.com/activity/228860" target="_blank">삼성 SDS 채용공고</a></p>
+        </div>
+
+        <div id="jobDescription" class="section">
+            <h2>직무기술서</h2>
+            <p>직무기술서 파일을 다운로드 하세요: <a href="file://mnt/data/(삼성SDS)%20직무소개서.pdf" target="_blank">직무소개서 파일</a></p>
+        </div>
+
+        <div id="candidateSpecs" class="section">
+            <h2>합격자 스펙</h2>
+            <ul>
+                <li>학사 이상의 학위 (관련 전공 우대)</li>
+                <li>AI, 클라우드, 데이터 분석 관련 경험</li>
+                <li>팀워크 및 협업 능력</li>
+                <li>글로벌 프로젝트 경험이 있으면 우대</li>
+            </ul>
+        </div>
+
+        <div id="companyAnalysis" class="section">
+            <h2>기업분석</h2>
+            <p>IT 서비스 산업은 클라우드, AI, 데이터 분석 등 첨단 기술을 중심으로 빠르게 성장하고 있습니다.</p>
+            <p>기업들은 비용 효율성과 운영 효율성, 디지털 전환의 필요성에 따라 클라우드 및 AI 도입을 가속화하고 있습니다.</p>
+            <p>글로벌 경쟁 심화와 함께 보안성, 맞춤형 솔루션, 파트너십 확대가 주요 트렌드로 부상하고 있습니다.</p>
+        </div>
+    </div>
+
+    <footer>
+        <!-- "2025 삼성 SDS. All rights reserved." 문구를 삭제함 -->
+    </footer>
+
+    <script>
+        // 섹션 토글 함수
+        function toggleSection(sectionId) {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach((section) => {
+                section.style.display = 'none'; // 모든 섹션 숨기기
+            });
+            const sectionToDisplay = document.getElementById(sectionId);
+            sectionToDisplay.style.display = 'block'; // 클릭한 섹션만 보이기
+        }
+    </script>
+
+</body>
+</html>
